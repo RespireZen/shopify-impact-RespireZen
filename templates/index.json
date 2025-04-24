@@ -85,11 +85,12 @@
         "feature_Uxja9P": {
           "type": "feature",
           "settings": {
+            "image": "shopify://shop_images/Deviation_de_la_cloison_nasale.webp",
             "image_size": "140px",
-            "title": "Gérez votre santé",
+            "title": "Déviation de la cloison nasale ?",
             "heading_tag": "h3",
             "title_weight": "600",
-            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous.",
+            "text": "Les bandes nasales magnétiques de Respire Zen sont efficaces pour dégager la partie de votre nez touchée par une cloison nasale déviée. Faites partie de nos 92% de clients satisfaits !",
             "text_size": "1.2rem"
           }
         }
