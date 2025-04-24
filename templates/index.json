@@ -55,6 +55,57 @@
         "overlay_opacity": 30
       }
     },
+    "triple_image_text_WCjJfm": {
+      "type": "triple-image-text",
+      "blocks": {
+        "feature_LLATJj": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Accédez aux soins plus facilement",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Réservez des consultations vidéo ou en présentiel, et recevez des rappels pour ne jamais les manquer.",
+            "text_size": "1.2rem"
+          }
+        },
+        "feature_RciK7W": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Bénéficiez de soins personnalisés",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Échangez avec vos soignants par message, obtenez des conseils préventifs et recevez des soins quand vous en avez besoin.",
+            "text_size": "1.2rem"
+          }
+        },
+        "feature_Uxja9P": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Gérez votre santé",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous.",
+            "text_size": "1.2rem"
+          }
+        }
+      },
+      "block_order": [
+        "feature_LLATJj",
+        "feature_RciK7W",
+        "feature_Uxja9P"
+      ],
+      "name": "Triple image + texte",
+      "settings": {
+        "title": "Respirez librement, vivez pleinement",
+        "title_size": "2rem",
+        "title_weight": "600",
+        "bg_color": "#f8f9fb",
+        "text_color": "#1d2c3c"
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -863,6 +914,7 @@
   },
   "order": [
     "video_7Er643",
+    "triple_image_text_WCjJfm",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
