@@ -41,38 +41,40 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
 
-  .container {
+  .triple-image-text .container {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
   }
 
-  .section-title {
+  .triple-image-text .section-title {
     margin: 0;
     word-break: break-word;
   }
 
-  .features-grid {
+  .triple-image-text .features-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
   }
 
-  .feature-item {
+  .triple-image-text .feature-item {
     flex: 1 1 250px;
     max-width: 300px;
     padding: 1rem;
     border-radius: 12px;
     background: white;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    text-align: center; /* ✅ Ajout pour centrer tous les contenus */
   }
 
-  .feature-image {
-    margin-bottom: 1rem;
+  .triple-image-text .feature-image {
+    margin: 0 auto 1rem auto; /* ✅ Centrage horizontal */
+    display: block; /* ✅ Pour éviter les comportements inline */
   }
 
-  .feature-text {
+  .triple-image-text .feature-text {
     font-family: 'Assistant', sans-serif;
     font-weight: 400;
     line-height: 1.6;
@@ -80,12 +82,12 @@
   }
 
   @media screen and (max-width: 768px) {
-    .features-grid {
+    .triple-image-text .features-grid {
       flex-direction: column;
       align-items: center;
     }
 
-    .feature-item {
+    .triple-image-text .feature-item {
       max-width: 90%;
     }
   }

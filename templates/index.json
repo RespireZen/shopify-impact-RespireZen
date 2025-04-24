@@ -73,7 +73,8 @@
         "feature_RciK7W": {
           "type": "feature",
           "settings": {
-            "image_size": "140px",
+            "image": "shopify://shop_images/Reduisez_les_ronflements.webp",
+            "image_size": "220px",
             "title": "Bénéficiez de soins personnalisés",
             "heading_tag": "h3",
             "title_weight": "600",
