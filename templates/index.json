@@ -86,7 +86,7 @@
           "type": "feature",
           "settings": {
             "image": "shopify://shop_images/Deviation_de_la_cloison_nasale.webp",
-            "image_size": "140px",
+            "image_size": "220px",
             "title": "Déviation de la cloison nasale ?",
             "heading_tag": "h3",
             "title_weight": "600",
