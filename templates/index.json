@@ -61,12 +61,13 @@
         "feature_LLATJj": {
           "type": "feature",
           "settings": {
-            "image_size": "140px",
-            "title": "Accédez aux soins plus facilement",
+            "image": "shopify://shop_images/Liberation_et_respiration_par_le_nez.webp",
+            "image_size": "220px",
+            "title": "Libérez votre nez",
             "heading_tag": "h3",
             "title_weight": "600",
-            "text": "Réservez des consultations vidéo ou en présentiel, et recevez des rappels pour ne jamais les manquer.",
-            "text_size": "1.2rem"
+            "text": "Grâce à la technologie des bandes nasales magnétiques développées par Respire Zen, profitez d'une ouverture jusqu'à 80% supérieur des voies de votre nez.",
+            "text_size": "1.6rem"
           }
         },
         "feature_RciK7W": {
