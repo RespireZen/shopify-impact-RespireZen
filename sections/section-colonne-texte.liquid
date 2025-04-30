@@ -1,0 +1,302 @@
+<!-- sections/section-text-columns.liquid -->
+<section class="triple-image-text" style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }};">
+  <div class="container horizontal-layout">
+
+    <div class="section-title-wrapper">
+      <h2 
+        class="section-title"
+        style="font-weight: {{ section.settings.title_weight }}; font-size: {{ section.settings.title_size }}; color: {{ section.settings.title_color }};">
+        {{ section.settings.title }}
+      </h2>
+    </div>
+
+    <div class="features-grid">
+      {% for block in section.blocks %}
+        <div class="feature-item" style="background-color: {{ section.settings.block_bg_color }}; color: {{ section.settings.block_text_color }};">
+          {% if block.settings.image %}
+            <img
+              src="{{ block.settings.image | image_url: width: 240 }}"
+              alt="Icône"
+              class="feature-image"
+              loading="lazy"
+              style="max-width: {{ block.settings.image_size }};"
+            >
+          {% endif %}
+
+          <{{ block.settings.heading_tag }}
+            class="feature-title {{ block.settings.heading_tag }}"
+            style="font-weight: {{ block.settings.title_weight }};">
+            {{ block.settings.title }}
+          </{{ block.settings.heading_tag }}>
+
+          <p class="feature-text" style="font-size: {{ block.settings.text_size }};">
+            {{ block.settings.text }}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .triple-image-text {
+    padding: 3rem 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+
+  .horizontal-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .section-title-wrapper {
+    flex: 0 0 250px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+  }
+
+  .section-title {
+    margin: 0;
+    word-break: break-word;
+  }
+
+  .features-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    align-items: stretch;
+  }
+
+  .feature-item {
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 230px;
+  }
+
+  .feature-image {
+    margin-bottom: 1rem;
+    max-width: 100%;
+  }
+
+  .feature-title {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  .feature-text {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: inherit;
+  }
+
+  @media screen and (max-width: 768px) {
+    .horizontal-layout {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1.5rem;
+    }
+
+    .section-title-wrapper {
+      flex: none;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+      margin-bottom: 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 0;
+    }
+
+    .features-grid {
+      width: 100%;
+    }
+
+    .feature-item {
+      max-width: 100%;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Triple image + texte",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Titre de la section",
+      "default": "Votre partenaire santé au quotidien"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Taille visuelle du titre principal",
+      "default": "2.5rem",
+      "options": [
+        { "value": "2rem", "label": "Standard H2" },
+        { "value": "2.5rem", "label": "Grand (comme H1)" },
+        { "value": "3rem", "label": "Très grand" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "title_weight",
+      "label": "Poids du titre",
+      "default": "600",
+      "options": [
+        { "value": "400", "label": "Normal" },
+        { "value": "600", "label": "Semi-gras" },
+        { "value": "700", "label": "Gras" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre principal (H2)",
+      "default": "#1d2c3c"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Couleur de fond de la section",
+      "default": "#f8f9fb"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Couleur du texte global",
+      "default": "#1d2c3c"
+    },
+    {
+      "type": "color",
+      "id": "block_bg_color",
+      "label": "Couleur de fond des blocs",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "block_text_color",
+      "label": "Couleur du texte dans les blocs",
+      "default": "#1d2c3c"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "feature",
+      "name": "Colonne",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "image_size",
+          "label": "Taille de l’image",
+          "default": "140px",
+          "options": [
+            { "value": "100px", "label": "Moyenne" },
+            { "value": "140px", "label": "Grande" },
+            { "value": "180px", "label": "Très grande" },
+            { "value": "220px", "label": "Immense" }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Titre du bloc",
+          "default": "Titre du bloc"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Niveau de titre du bloc",
+          "default": "h3",
+          "options": [
+            { "value": "h2", "label": "H2 (grand)" },
+            { "value": "h3", "label": "H3 (moyen)" },
+            { "value": "h4", "label": "H4 (petit)" }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "title_weight",
+          "label": "Poids du titre du bloc",
+          "default": "600",
+          "options": [
+            { "value": "400", "label": "Normal" },
+            { "value": "600", "label": "Semi-gras" },
+            { "value": "700", "label": "Gras" }
+          ]
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Texte du bloc",
+          "default": "Texte de description du bloc."
+        },
+        {
+          "type": "select",
+          "id": "text_size",
+          "label": "Taille du texte du bloc",
+          "default": "1.2rem",
+          "options": [
+            { "value": "1.2rem", "label": "Standard (lisible)" },
+            { "value": "1.4rem", "label": "Grand" },
+            { "value": "1.6rem", "label": "Très grand" },
+            { "value": "1.8rem", "label": "Immense (titre-style)" }
+          ]
+        }
+      ]
+    }
+  ],
+  "max_blocks": 3,
+  "presets": [
+    {
+      "name": "Triple image + texte",
+      "blocks": [
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Accédez aux soins plus facilement",
+            "text": "Réservez des consultations vidéo ou en présentiel, et recevez des rappels pour ne jamais les manquer."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Bénéficiez de soins personnalisés",
+            "text": "Échangez avec vos soignants par message, obtenez des conseils préventifs et recevez des soins quand vous en avez besoin."
+          }
+        },
+        {
+          "type": "feature",
+          "settings": {
+            "title": "Gérez votre santé",
+            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
