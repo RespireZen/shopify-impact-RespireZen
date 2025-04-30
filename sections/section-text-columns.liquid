@@ -12,14 +12,17 @@
     <div class="grid grid--3-col-desktop grid--2-col-tablet grid--1-col-mobile gap-6">
       {% for block in section.blocks %}
         <div class="grid__item">
-          <div class="rounded-xl p-6 text-center shadow-sm" style="background-color: #eaf6ff; color: {{ section.settings.block_text_color }};">
+          <div
+            class="rounded-xl p-6 md:p-8 text-center shadow-md"
+            style="background-color: #eaf6ff; color: {{ section.settings.block_text_color }};"
+          >
             <{{ block.settings.heading_tag }}
-              class="font-bold text-lg mb-3"
+              class="font-bold text-lg md:text-xl leading-snug mb-3"
               style="font-weight: {{ block.settings.title_weight }};">
               {{ block.settings.title }}
             </{{ block.settings.heading_tag }}>
 
-            <p class="text-base leading-relaxed">
+            <p class="text-base md:text-lg leading-relaxed">
               {{ block.settings.text }}
             </p>
           </div>
@@ -147,14 +150,14 @@
           "type": "feature",
           "settings": {
             "title": "800 couples sauvés des ronflements",
-            "text": "Parce qu’un nez dégagé, c’est aussi des nuits plus calmes vous et votre partenaire"
+            "text": "Parce qu’un nez dégagé, c’est aussi des nuits plus calmes vous et votre partenaire."
           }
         },
         {
           "type": "feature",
           "settings": {
             "title": "Économisez 730h de sommeil par an",
-            "text": "En moyenne, on perd 730 heures de sommeil par an. Les bandes nasales de Respire Zen vous aident à maintenir un sommeil réparateur sans interruption"
+            "text": "En moyenne, on perd 730 heures de sommeil par an. Les bandes nasales de Respire Zen vous aident à maintenir un sommeil réparateur sans interruption."
           }
         }
       ]
