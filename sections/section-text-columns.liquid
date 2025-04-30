@@ -3,14 +3,14 @@
   <div class="section__inner">
     
     {% if section.settings.title != blank %}
-      <div class="section__header mb-6">
+      <div class="section__header text-center mb-6">
         <h2 class="h2" style="font-weight: {{ section.settings.title_weight }}; font-size: {{ section.settings.title_size }}; color: {{ section.settings.title_color }};">
           {{ section.settings.title }}
         </h2>
       </div>
     {% endif %}
 
-    <div class="custom-feature-grid">
+    <div class="grid grid--3-col-desktop grid--2-col-tablet grid--1-col-mobile gap-lg">
       {% for block in section.blocks %}
         <div class="card" style="background-color: {{ section.settings.block_bg_color }}; color: {{ section.settings.block_text_color }};">
           <div class="card__content text-center px-4 py-5">
@@ -39,26 +39,6 @@
 
   </div>
 </section>
-
-              <style>
-  .custom-feature-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  }
-
-  @media screen and (max-width: 991px) {
-    .custom-feature-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .custom-feature-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
 
               
 {% schema %}
