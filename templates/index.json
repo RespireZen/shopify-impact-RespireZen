@@ -109,14 +109,6 @@
         "text_color": "#1d2c3c"
       }
     },
-    "espacement_9zqked": {
-      "type": "espacement",
-      "name": "Espacement",
-      "settings": {
-        "spacer_height": "10px",
-        "spacer_color": "#ffffff"
-      }
-    },
     "colonnes_avec_texte_bPWRia": {
       "type": "Colonnes-avec-texte",
       "blocks": {
@@ -169,6 +161,14 @@
         "text_color": "#1d2c3c",
         "block_bg_color": "#ffffff",
         "block_text_color": "#1d2c3c"
+      }
+    },
+    "espacement_9zqked": {
+      "type": "espacement",
+      "name": "Espacement",
+      "settings": {
+        "spacer_height": "10px",
+        "spacer_color": "#ffffff"
       }
     },
     "image-link-blocks": {
@@ -994,8 +994,8 @@
   "order": [
     "video_7Er643",
     "triple_image_text_WCjJfm",
-    "espacement_9zqked",
     "colonnes_avec_texte_bPWRia",
+    "espacement_9zqked",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
