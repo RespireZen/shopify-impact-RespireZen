@@ -1,16 +1,16 @@
 <!-- sections/section-text-columns.liquid -->
 <section class="section" style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }};">
   <div class="section__inner">
-    
+
     {% if section.settings.title != blank %}
-      <div class="section__header mb-6">
+      <div class="section__header text-center mb-6">
         <h2 class="h2" style="font-weight: {{ section.settings.title_weight }}; font-size: {{ section.settings.title_size }}; color: {{ section.settings.title_color }};">
           {{ section.settings.title }}
         </h2>
       </div>
     {% endif %}
 
-    <div class="custom-feature-grid">
+    <div class="grid grid--3-col-desktop grid--2-col-tablet grid--1-col-mobile gap-lg">
       {% for block in section.blocks %}
         <div class="card" style="background-color: {{ section.settings.block_bg_color }}; color: {{ section.settings.block_text_color }};">
           <div class="card__content text-center px-4 py-5">
@@ -23,6 +23,7 @@
                 style="max-width: {{ block.settings.image_size }};"
               >
             {% endif %}
+
             <{{ block.settings.heading_tag }}
               class="{{ block.settings.heading_tag }} mb-2"
               style="font-weight: {{ block.settings.title_weight }};">
@@ -39,193 +40,3 @@
 
   </div>
 </section>
-
-              <style>
-  .custom-feature-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-  }
-
-  @media screen and (max-width: 991px) {
-    .custom-feature-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .custom-feature-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
-
-              
-{% schema %}
-{
-  "name": "Colonnes avec texte",
-  "tag": "section",
-  "class": "section",
-  "settings": [
-    {
-      "type": "text",
-      "id": "title",
-      "label": "Titre de la section",
-      "default": "Votre partenaire santé au quotidien"
-    },
-    {
-      "type": "select",
-      "id": "title_size",
-      "label": "Taille visuelle du titre principal",
-      "default": "2.5rem",
-      "options": [
-        { "value": "2rem", "label": "Standard H2" },
-        { "value": "2.5rem", "label": "Grand (comme H1)" },
-        { "value": "3rem", "label": "Très grand" }
-      ]
-    },
-    {
-      "type": "select",
-      "id": "title_weight",
-      "label": "Poids du titre",
-      "default": "600",
-      "options": [
-        { "value": "400", "label": "Normal" },
-        { "value": "600", "label": "Semi-gras" },
-        { "value": "700", "label": "Gras" }
-      ]
-    },
-    {
-      "type": "color",
-      "id": "title_color",
-      "label": "Couleur du titre principal",
-      "default": "#1d2c3c"
-    },
-    {
-      "type": "color",
-      "id": "bg_color",
-      "label": "Couleur de fond de la section",
-      "default": "#f8f9fb"
-    },
-    {
-      "type": "color",
-      "id": "text_color",
-      "label": "Couleur du texte global",
-      "default": "#1d2c3c"
-    },
-    {
-      "type": "color",
-      "id": "block_bg_color",
-      "label": "Couleur de fond des blocs",
-      "default": "#ffffff"
-    },
-    {
-      "type": "color",
-      "id": "block_text_color",
-      "label": "Couleur du texte dans les blocs",
-      "default": "#1d2c3c"
-    }
-  ],
-  "blocks": [
-    {
-      "type": "feature",
-      "name": "Colonne",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "select",
-          "id": "image_size",
-          "label": "Taille de l’image",
-          "default": "140px",
-          "options": [
-            { "value": "100px", "label": "Moyenne" },
-            { "value": "140px", "label": "Grande" },
-            { "value": "180px", "label": "Très grande" },
-            { "value": "220px", "label": "Immense" }
-          ]
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Titre du bloc",
-          "default": "Titre du bloc"
-        },
-        {
-          "type": "select",
-          "id": "heading_tag",
-          "label": "Niveau de titre du bloc",
-          "default": "h3",
-          "options": [
-            { "value": "h2", "label": "H2 (grand)" },
-            { "value": "h3", "label": "H3 (moyen)" },
-            { "value": "h4", "label": "H4 (petit)" }
-          ]
-        },
-        {
-          "type": "select",
-          "id": "title_weight",
-          "label": "Poids du titre du bloc",
-          "default": "600",
-          "options": [
-            { "value": "400", "label": "Normal" },
-            { "value": "600", "label": "Semi-gras" },
-            { "value": "700", "label": "Gras" }
-          ]
-        },
-        {
-          "type": "textarea",
-          "id": "text",
-          "label": "Texte du bloc",
-          "default": "Texte de description du bloc."
-        },
-        {
-          "type": "select",
-          "id": "text_size",
-          "label": "Taille du texte du bloc",
-          "default": "1.2rem",
-          "options": [
-            { "value": "1.2rem", "label": "Standard (lisible)" },
-            { "value": "1.4rem", "label": "Grand" },
-            { "value": "1.6rem", "label": "Très grand" },
-            { "value": "1.8rem", "label": "Immense (titre-style)" }
-          ]
-        }
-      ]
-    }
-  ],
-  "max_blocks": 3,
-  "presets": [
-    {
-      "name": "Colonnes avec texte",
-      "category": "Contenu",
-      "blocks": [
-        {
-          "type": "feature",
-          "settings": {
-            "title": "Accédez aux soins plus facilement",
-            "text": "Réservez des consultations vidéo ou en présentiel, et recevez des rappels pour ne jamais les manquer."
-          }
-        },
-        {
-          "type": "feature",
-          "settings": {
-            "title": "Bénéficiez de soins personnalisés",
-            "text": "Échangez avec vos soignants par message, obtenez des conseils préventifs et recevez des soins quand vous en avez besoin."
-          }
-        },
-        {
-          "type": "feature",
-          "settings": {
-            "title": "Gérez votre santé",
-            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous."
-          }
-        }
-      ]
-    }
-  ]
-}
-{% endschema %}
