@@ -1,4 +1,5 @@
-<section class="section color-background-1" style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }}; width: 100%;">
+<!-- sections/section-text-columns.liquid -->
+<div style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }}; width: 100%;">
   <div class="page-width">
     {% if section.settings.title != blank %}
       <div class="text-center mb-10">
@@ -29,7 +30,8 @@
       {% endfor %}
     </div>
   </div>
-</section>
+</div>
+
 
 
 
