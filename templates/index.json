@@ -109,6 +109,14 @@
         "text_color": "#1d2c3c"
       }
     },
+    "espacement_9zqked": {
+      "type": "espacement",
+      "name": "Espacement",
+      "settings": {
+        "spacer_height": "20px",
+        "spacer_color": "#ffffff"
+      }
+    },
     "colonnes_avec_texte_bPWRia": {
       "type": "Colonnes-avec-texte",
       "blocks": {
@@ -151,7 +159,6 @@
         "feature_NnmhV6",
         "feature_6Pa76i"
       ],
-      "disabled": true,
       "name": "Colonnes avec texte",
       "settings": {
         "title": "Respire Zen en quelques chiffres",
@@ -987,6 +994,7 @@
   "order": [
     "video_7Er643",
     "triple_image_text_WCjJfm",
+    "espacement_9zqked",
     "colonnes_avec_texte_bPWRia",
     "image-link-blocks",
     "scrolling-text",
