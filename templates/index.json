@@ -159,6 +159,7 @@
         "feature_NnmhV6",
         "feature_6Pa76i"
       ],
+      "disabled": true,
       "name": "Colonnes avec texte",
       "settings": {
         "title": "Respire Zen en quelques chiffres",
