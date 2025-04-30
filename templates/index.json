@@ -185,10 +185,10 @@
           "type": "feature",
           "settings": {
             "image_size": "140px",
-            "title": "Gérez votre santé",
+            "title": "Économisez 730h de sommeil par an",
             "heading_tag": "h3",
             "title_weight": "600",
-            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous.",
+            "text": "En moyenne, on perd 730 heures de sommeil par an. Les bandes nasales de Respire Zen vous aide à maintenir un sommeil réparateur sans interruption",
             "text_size": "1.2rem"
           }
         }
