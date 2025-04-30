@@ -916,7 +916,12 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    }
+    },
+"custom_text_columns": {
+  "type": "section-text-columns",
+  "settings": {}
+}
+
   },
   "order": [
     "video_7Er643",
@@ -934,6 +939,8 @@
     "multiple-images-with-text",
     "featured-product",
     "feature-chart",
-    "faq"
+    "faq",
+"custom_text_columns"
+
   ]
 }
