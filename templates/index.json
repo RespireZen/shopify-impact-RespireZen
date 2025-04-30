@@ -153,61 +153,13 @@
       ],
       "name": "Colonnes avec texte",
       "settings": {
-        "title": "Votre partenaire santé au quotidien",
-        "title_size": "2.5rem",
-        "title_weight": "600",
+        "title": "Respire Zen en quelques chiffres",
+        "title_size": "2rem",
+        "title_weight": "700",
         "title_color": "#1d2c3c",
         "bg_color": "#f8f9fb",
         "text_color": "#1d2c3c",
         "block_bg_color": "#ffffff",
-        "block_text_color": "#1d2c3c"
-      }
-    },
-    "section_text_columns_gkyThN": {
-      "type": "section-text-columns",
-      "blocks": {
-        "feature_63ViRD": {
-          "type": "feature",
-          "settings": {
-            "title": "Accédez aux soins plus facilement",
-            "heading_tag": "h3",
-            "title_weight": "600",
-            "text": "Réservez des consultations vidéo ou en présentiel, et recevez des rappels pour ne jamais les manquer."
-          }
-        },
-        "feature_FbatEL": {
-          "type": "feature",
-          "settings": {
-            "title": "Bénéficiez de soins personnalisés",
-            "heading_tag": "h3",
-            "title_weight": "600",
-            "text": "Échangez avec vos soignants par message, obtenez des conseils préventifs et recevez des soins quand vous en avez besoin."
-          }
-        },
-        "feature_Ywj7Rp": {
-          "type": "feature",
-          "settings": {
-            "title": "Gérez votre santé",
-            "heading_tag": "h3",
-            "title_weight": "600",
-            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous."
-          }
-        }
-      },
-      "block_order": [
-        "feature_63ViRD",
-        "feature_FbatEL",
-        "feature_Ywj7Rp"
-      ],
-      "disabled": true,
-      "name": "Colonnes avec texte",
-      "settings": {
-        "title": "Respire Zen en quelques chiffres",
-        "title_size": "2.5rem",
-        "title_weight": "600",
-        "title_color": "#1d2c3c",
-        "bg_color": "#f83a3a",
-        "text_color": "#1d2c3c",
         "block_text_color": "#1d2c3c"
       }
     },
@@ -1035,7 +987,6 @@
     "video_7Er643",
     "triple_image_text_WCjJfm",
     "colonnes_avec_texte_bPWRia",
-    "section_text_columns_gkyThN",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
