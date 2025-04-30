@@ -1,4 +1,3 @@
-<!-- sections/section-text-columns.liquid -->
 <section class="section color-background-1" style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }};">
   <div class="page-width">
     {% if section.settings.title != blank %}
@@ -13,16 +12,16 @@
       {% for block in section.blocks %}
         <div class="grid__item" style="margin-bottom: 2rem;">
           <div
-            class="rounded-xl p-6 md:p-8 text-center shadow-md"
-            style="background-color: #eaf6ff; color: {{ section.settings.block_text_color }};"
+            class="rounded-2xl shadow-lg text-center px-6 pt-6 pb-6 md:px-10 md:pt-10 md:pb-10"
+            style="background-color: #eaf6ff; color: {{ section.settings.block_text_color }}; min-height: 240px;"
           >
             <{{ block.settings.heading_tag }}
-              class="font-bold text-lg md:text-xl leading-snug mb-3"
+              class="font-bold text-lg md:text-xl leading-snug mb-4"
               style="font-weight: {{ block.settings.title_weight }};">
               {{ block.settings.title }}
             </{{ block.settings.heading_tag }}>
 
-            <p class="text-base md:text-lg leading-relaxed">
+            <p class="text-base md:text-lg leading-relaxed mx-auto" style="max-width: 600px;">
               {{ block.settings.text }}
             </p>
           </div>
@@ -31,6 +30,7 @@
     </div>
   </div>
 </section>
+
 
 {% schema %}
 {
