@@ -167,7 +167,7 @@
       "type": "espacement",
       "name": "Espacement",
       "settings": {
-        "spacer_height": "10px",
+        "spacer_height": "1px",
         "spacer_color": "#ffffff"
       }
     },

@@ -1,27 +1,22 @@
 <!-- sections/espacement.liquid -->
-<section
+<div
   class="custom-spacer"
-  style="height: {{ section.settings.spacer_height }}; background-color: {{ section.settings.spacer_color }}; padding: 0; margin: 0; border: 0;">
-</section>
+  style="height: {{ section.settings.spacer_height }}; background-color: {{ section.settings.spacer_color }};">
+</div>
 
 <style>
   .custom-spacer {
     width: 100%;
     display: block;
-    line-height: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .custom-spacer {
-      height: auto !important;
-    }
+    padding: 0;
+    margin: 0;
   }
 </style>
 
 {% schema %}
 {
   "name": "Espacement",
-  "tag": "section",
+  "tag": "div",
   "class": "custom-spacer-wrapper",
   "settings": [
     {
@@ -41,7 +36,7 @@
       "type": "color",
       "id": "spacer_color",
       "label": "Couleur de fond",
-      "default": "#ffffff"
+      "default": "#e9f0f7"
     }
   ],
   "presets": [
