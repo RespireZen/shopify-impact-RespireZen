@@ -156,6 +156,60 @@
         "block_text_color": "#1d2c3c"
       }
     },
+    "test_section_colonne_nTnfHM": {
+      "type": "TEST-SECTION-COLONNE",
+      "blocks": {
+        "feature_JrJJGW": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Accédez aux soins plus facilement",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Réservez des consultations vidéo ou en présentiel, et recevez des rappels pour ne jamais les manquer.",
+            "text_size": "1.2rem"
+          }
+        },
+        "feature_xhw6E7": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Bénéficiez de soins personnalisés",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Échangez avec vos soignants par message, obtenez des conseils préventifs et recevez des soins quand vous en avez besoin.",
+            "text_size": "1.2rem"
+          }
+        },
+        "feature_NErgaT": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Gérez votre santé",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous.",
+            "text_size": "1.2rem"
+          }
+        }
+      },
+      "block_order": [
+        "feature_JrJJGW",
+        "feature_xhw6E7",
+        "feature_NErgaT"
+      ],
+      "name": "TEST COLONNE",
+      "settings": {
+        "title": "Votre partenaire santé au quotidien",
+        "title_size": "2.5rem",
+        "title_weight": "600",
+        "title_color": "#1d2c3c",
+        "bg_color": "#f8f9fb",
+        "text_color": "#1d2c3c",
+        "block_bg_color": "#ffffff",
+        "block_text_color": "#1d2c3c"
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -980,6 +1034,7 @@
     "video_7Er643",
     "triple_image_text_WCjJfm",
     "section_text_columns_gkyThN",
+    "test_section_colonne_nTnfHM",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
