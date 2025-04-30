@@ -9,9 +9,9 @@
       </div>
     {% endif %}
 
-    <div class="grid grid--3-col-desktop grid--2-col-tablet grid--1-col-mobile gap-6">
+    <div class="grid grid--3-col-desktop grid--2-col-tablet grid--1-col-mobile">
       {% for block in section.blocks %}
-        <div class="grid__item">
+        <div class="grid__item" style="margin-bottom: 2rem;">
           <div
             class="rounded-xl p-6 md:p-8 text-center shadow-md"
             style="background-color: #eaf6ff; color: {{ section.settings.block_text_color }};"
