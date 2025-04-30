@@ -1,5 +1,6 @@
 <section class="Colonnes-avec-texte" style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }};">
-  <div class="column-text-wrapper">
+  <div class="container horizontal-layout">
+
     <div class="section-title-wrapper">
       <h2 
         class="section-title"
@@ -8,34 +9,34 @@
       </h2>
     </div>
 
-    <div class="column-features-grid">
+    <div class="features-grid">
       {% for block in section.blocks %}
-        <div class="column-feature-item" style="background-color: {{ section.settings.block_bg_color }}; color: {{ section.settings.block_text_color }};">
+        <div class="feature-item" style="background-color: {{ section.settings.block_bg_color }}; color: {{ section.settings.block_text_color }};">
           {% if block.settings.image %}
             <img
               src="{{ block.settings.image | image_url: width: 240 }}"
               alt="Icône"
-              class="column-feature-image"
+              class="feature-image"
               loading="lazy"
               style="max-width: {{ block.settings.image_size }};"
             >
           {% endif %}
 
           <{{ block.settings.heading_tag }}
-            class="column-feature-title {{ block.settings.heading_tag }}"
+            class="feature-title {{ block.settings.heading_tag }}"
             style="font-weight: {{ block.settings.title_weight }};">
             {{ block.settings.title }}
           </{{ block.settings.heading_tag }}>
 
-          <p class="column-feature-text" style="font-size: {{ block.settings.text_size }};">
+          <p class="feature-text" style="font-size: {{ block.settings.text_size }};">
             {{ block.settings.text }}
           </p>
         </div>
       {% endfor %}
     </div>
+
   </div>
 </section>
-
 
 <style>
   .triple-image-text {
@@ -67,8 +68,7 @@
   .features-grid {
     flex: 1;
     display: grid;
-grid-template-columns: repeat(auto-fit, minmax(250px, 320px));
-justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     align-items: stretch;
   }
