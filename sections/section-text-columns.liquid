@@ -40,6 +40,27 @@
   </div>
 </section>
 
+              <style>
+  .custom-feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  @media screen and (max-width: 991px) {
+    .custom-feature-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .custom-feature-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+              
 {% schema %}
 {
   "name": "Colonnes avec texte",
