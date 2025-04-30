@@ -171,6 +171,14 @@
         "block_text_color": "#1d2c3c"
       }
     },
+    "espacement_h6B9QH": {
+      "type": "espacement",
+      "name": "Espacement",
+      "settings": {
+        "spacer_height": "20px",
+        "spacer_color": "#f8f9fb"
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -996,6 +1004,7 @@
     "triple_image_text_WCjJfm",
     "espacement_9zqked",
     "colonnes_avec_texte_bPWRia",
+    "espacement_h6B9QH",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
