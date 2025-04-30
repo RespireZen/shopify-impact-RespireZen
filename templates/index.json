@@ -109,6 +109,19 @@
         "text_color": "#1d2c3c"
       }
     },
+    "custom_liquid_g8Jpnr": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section id=\"shopify-section-template--24711952990545__section_text_columns_rtEdLM\" class=\"shopify-section\"><!-- sections/section-text-columns.liquid -->\n<section class=\"triple-image-text\" style=\"background-color: #f8f9fb; color: #ffffff;\">\n  <div class=\"container horizontal-layout\" bis_skin_checked=\"1\">\n\n    <div class=\"section-title-wrapper\" bis_skin_checked=\"1\">\n      <h2 class=\"section-title\" style=\"font-weight: 600; font-size: 3rem; color: #00264c;\">\n        Respire Zen en quelques chiffres\n      </h2>\n    </div>\n\n    <div class=\"features-grid\" bis_skin_checked=\"1\">\n      \n        <div class=\"feature-item\" style=\"background-color: #e7f4fd; color: #00264c;\" bis_skin_checked=\"1\">\n          \n\n          <h3 class=\"feature-title h3\" style=\"font-weight: 600;\">\n            2 000 nez débouchés\n          </h3>\n\n          <p class=\"feature-text\" style=\"font-size: 1.6rem;\">\n            Respire Zen c'est déjà plus de 2 000 personnes aidées dont les problèmes de nez bouchés ont été soulagés\n          </p>\n        </div>\n      \n        <div class=\"feature-item\" style=\"background-color: #e7f4fd; color: #00264c;\" bis_skin_checked=\"1\">\n          \n\n          <h3 class=\"feature-title h3\" style=\"font-weight: 600;\">\n            800 couples sauvés des ronflements\n          </h3>\n\n          <p class=\"feature-text\" style=\"font-size: 1.6rem;\">\n            Parce qu’un nez dégagé, c’est aussi des nuits plus calmes vous et votre partenaire\n          </p>\n        </div>\n      \n        <div class=\"feature-item\" style=\"background-color: #e7f4fd; color: #00264c;\" bis_skin_checked=\"1\">\n          \n\n          <h3 class=\"feature-title h3\" style=\"font-weight: 600;\">\n            Économisez 730h de sommeil par an\n          </h3>\n\n          <p class=\"feature-text\" style=\"font-size: 1.6rem;\">\n            En moyenne, on perd 730 heures de sommeil par an. Les bandes nasales de Respire Zen vous aide à maintenir un sommeil réparateur sans interruption\n          </p>\n        </div>\n      \n    </div>\n\n  </div>\n</section>\n\n<style>\n  .triple-image-text {\n    padding: 3rem 1rem;\n    font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif;\n  }\n\n  .horizontal-layout {\n    display: flex;\n    flex-wrap: wrap;\n    align-items: center;\n    gap: 2rem;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n\n  .section-title-wrapper {\n    flex: 0 0 250px;\n    min-width: 200px;\n    display: flex;\n    align-items: center;\n  }\n\n  .section-title {\n    margin: 0;\n    word-break: break-word;\n  }\n\n  .features-grid {\n    flex: 1;\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\n    gap: 2rem;\n    align-items: stretch;\n  }\n\n  .feature-item {\n    padding: 1rem 1rem;\n    border-radius: 12px;\n    background: white;\n    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);\n    text-align: center;\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    min-height: 230px;\n  }\n\n  .feature-image {\n    margin-bottom: 1rem;\n    max-width: 100%;\n  }\n\n  .feature-title {\n    margin-top: 0;\n    margin-bottom: 0.75rem;\n  }\n\n  .feature-text {\n    font-family: 'Assistant', sans-serif;\n    font-weight: 400;\n    line-height: 1.6;\n    color: inherit;\n  }\n\n  @media screen and (max-width: 768px) {\n    .horizontal-layout {\n      flex-direction: column;\n      align-items: stretch;\n      gap: 1.5rem;\n    }\n\n    .section-title-wrapper {\n      flex: none;\n      width: 100%;\n      height: auto;\n      justify-content: center;\n      margin-bottom: 0;\n    }\n\n    .section-title {\n      text-align: center;\n      margin-bottom: 0;\n    }\n\n    .features-grid {\n      width: 100%;\n    }\n\n    .feature-item {\n      max-width: 100%;\n    }\n  }\n</style>\n\n\n</section>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -920,6 +933,7 @@
   "order": [
     "video_7Er643",
     "triple_image_text_WCjJfm",
+    "custom_liquid_g8Jpnr",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
