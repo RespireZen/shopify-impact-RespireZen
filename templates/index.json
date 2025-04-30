@@ -19,7 +19,6 @@
             "heading_tag": "h2"
           }
         },
-        
         "richtext_NUWA4p": {
           "type": "richtext",
           "settings": {
@@ -108,6 +107,60 @@
         "title_weight": "600",
         "bg_color": "#f8f9fb",
         "text_color": "#1d2c3c"
+      }
+    },
+    "section_text_columns_gkyThN": {
+      "type": "section-text-columns",
+      "blocks": {
+        "feature_63ViRD": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Accédez aux soins plus facilement",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Réservez des consultations vidéo ou en présentiel, et recevez des rappels pour ne jamais les manquer.",
+            "text_size": "1.2rem"
+          }
+        },
+        "feature_FbatEL": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Bénéficiez de soins personnalisés",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Échangez avec vos soignants par message, obtenez des conseils préventifs et recevez des soins quand vous en avez besoin.",
+            "text_size": "1.2rem"
+          }
+        },
+        "feature_Ywj7Rp": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Gérez votre santé",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous.",
+            "text_size": "1.2rem"
+          }
+        }
+      },
+      "block_order": [
+        "feature_63ViRD",
+        "feature_FbatEL",
+        "feature_Ywj7Rp"
+      ],
+      "name": "Colonnes avec texte",
+      "settings": {
+        "title": "Votre partenaire santé au quotidien",
+        "title_size": "2.5rem",
+        "title_weight": "600",
+        "title_color": "#1d2c3c",
+        "bg_color": "#f8f9fb",
+        "text_color": "#1d2c3c",
+        "block_bg_color": "#ffffff",
+        "block_text_color": "#1d2c3c"
       }
     },
     "image-link-blocks": {
@@ -917,15 +970,24 @@
         "accordion_text_color": ""
       }
     },
-"custom_text_columns": {
-  "type": "section-text-columns",
-  "settings": {}
-}
-
+    "custom_text_columns": {
+      "type": "section-text-columns",
+      "settings": {
+        "title": "Votre partenaire santé au quotidien",
+        "title_size": "2.5rem",
+        "title_weight": "600",
+        "title_color": "#1d2c3c",
+        "bg_color": "#f8f9fb",
+        "text_color": "#1d2c3c",
+        "block_bg_color": "#ffffff",
+        "block_text_color": "#1d2c3c"
+      }
+    }
   },
   "order": [
     "video_7Er643",
     "triple_image_text_WCjJfm",
+    "section_text_columns_gkyThN",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
@@ -940,7 +1002,6 @@
     "featured-product",
     "feature-chart",
     "faq",
-"custom_text_columns"
-
+    "custom_text_columns"
   ]
 }
