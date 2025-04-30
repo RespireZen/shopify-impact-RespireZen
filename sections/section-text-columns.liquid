@@ -1,37 +1,38 @@
 <!-- sections/section-text-columns.liquid -->
-<section class="triple-image-text" style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }};">
-  <div class="container horizontal-layout">
+<section class="section" style="background-color: {{ section.settings.bg_color }}; color: {{ section.settings.text_color }};">
+  <div class="section__inner">
+    
+    {% if section.settings.title != blank %}
+      <div class="section__header mb-6">
+        <h2 class="h2" style="font-weight: {{ section.settings.title_weight }}; font-size: {{ section.settings.title_size }}; color: {{ section.settings.title_color }};">
+          {{ section.settings.title }}
+        </h2>
+      </div>
+    {% endif %}
 
-    <div class="section-title-wrapper">
-      <h2 
-        class="section-title"
-        style="font-weight: {{ section.settings.title_weight }}; font-size: {{ section.settings.title_size }}; color: {{ section.settings.title_color }};">
-        {{ section.settings.title }}
-      </h2>
-    </div>
-
-    <div class="features-grid">
+    <div class="grid grid--3-col-desktop grid--2-col-tablet grid--1-col-mobile gap-lg">
       {% for block in section.blocks %}
-        <div class="feature-item" style="background-color: {{ section.settings.block_bg_color }}; color: {{ section.settings.block_text_color }};">
-          {% if block.settings.image %}
-            <img
-              src="{{ block.settings.image | image_url: width: 240 }}"
-              alt="Icône"
-              class="feature-image"
-              loading="lazy"
-              style="max-width: {{ block.settings.image_size }};"
-            >
-          {% endif %}
+        <div class="card" style="background-color: {{ section.settings.block_bg_color }}; color: {{ section.settings.block_text_color }};">
+          <div class="card__content text-center px-4 py-5">
+            {% if block.settings.image %}
+              <img
+                src="{{ block.settings.image | image_url: width: 400 }}"
+                alt="Icône"
+                class="mb-4"
+                loading="lazy"
+                style="max-width: {{ block.settings.image_size }};"
+              >
+            {% endif %}
+            <{{ block.settings.heading_tag }}
+              class="{{ block.settings.heading_tag }} mb-2"
+              style="font-weight: {{ block.settings.title_weight }};">
+              {{ block.settings.title }}
+            </{{ block.settings.heading_tag }}>
 
-          <{{ block.settings.heading_tag }}
-            class="feature-title {{ block.settings.heading_tag }}"
-            style="font-weight: {{ block.settings.title_weight }};">
-            {{ block.settings.title }}
-          </{{ block.settings.heading_tag }}>
-
-          <p class="feature-text" style="font-size: {{ block.settings.text_size }};">
-            {{ block.settings.text }}
-          </p>
+            <p class="feature-text" style="font-size: {{ block.settings.text_size }}; font-family: 'Assistant', sans-serif;">
+              {{ block.settings.text }}
+            </p>
+          </div>
         </div>
       {% endfor %}
     </div>
@@ -39,105 +40,11 @@
   </div>
 </section>
 
-<style>
-  .triple-image-text {
-    padding: 3rem 1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  }
-
-  .horizontal-layout {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .section-title-wrapper {
-    flex: 0 0 250px;
-    min-width: 200px;
-    display: flex;
-    align-items: center;
-  }
-
-  .section-title {
-    margin: 0;
-    word-break: break-word;
-  }
-
-  .features-grid {
-    flex: 1;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    align-items: stretch;
-  }
-
-  .feature-item {
-    padding: 1rem 1rem;
-    border-radius: 12px;
-    background: white;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 230px;
-  }
-
-  .feature-image {
-    margin-bottom: 1rem;
-    max-width: 100%;
-  }
-
-  .feature-title {
-    margin-top: 0;
-    margin-bottom: 0.75rem;
-  }
-
-  .feature-text {
-    font-family: 'Assistant', sans-serif;
-    font-weight: 400;
-    line-height: 1.6;
-    color: inherit;
-  }
-
-  @media screen and (max-width: 768px) {
-    .horizontal-layout {
-      flex-direction: column;
-      align-items: stretch;
-      gap: 1.5rem;
-    }
-
-    .section-title-wrapper {
-      flex: none;
-      width: 100%;
-      height: auto;
-      justify-content: center;
-      margin-bottom: 0;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 0;
-    }
-
-    .features-grid {
-      width: 100%;
-    }
-
-    .feature-item {
-      max-width: 100%;
-    }
-  }
-</style>
-
 {% schema %}
 {
   "name": "Triple image + texte",
   "tag": "section",
+  "class": "section",
   "settings": [
     {
       "type": "text",
@@ -170,7 +77,7 @@
     {
       "type": "color",
       "id": "title_color",
-      "label": "Couleur du titre principal (H2)",
+      "label": "Couleur du titre principal",
       "default": "#1d2c3c"
     },
     {
@@ -273,6 +180,7 @@
   "presets": [
     {
       "name": "Triple image + texte",
+      "category": "Contenu",
       "blocks": [
         {
           "type": "feature",
