@@ -55,6 +55,58 @@
         "overlay_opacity": 30
       }
     },
+    "triple_image_text_bTf87a": {
+      "type": "triple-image-text",
+      "blocks": {
+        "feature_ER6hAU": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Liberation_et_respiration_par_le_nez.webp",
+            "image_size": "100px",
+            "title": "Accédez aux soins plus facilement",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Réservez des consultations vidéo ou en présentiel, et recevez des rappels pour ne jamais les manquer.",
+            "text_size": "1.2rem"
+          }
+        },
+        "feature_NRpwrW": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Bénéficiez de soins personnalisés",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Échangez avec vos soignants par message, obtenez des conseils préventifs et recevez des soins quand vous en avez besoin.",
+            "text_size": "1.2rem"
+          }
+        },
+        "feature_FdD8CV": {
+          "type": "feature",
+          "settings": {
+            "image_size": "140px",
+            "title": "Gérez votre santé",
+            "heading_tag": "h3",
+            "title_weight": "600",
+            "text": "Rassemblez facilement toutes vos informations de santé et celles de ceux qui comptent pour vous.",
+            "text_size": "1.2rem"
+          }
+        }
+      },
+      "block_order": [
+        "feature_ER6hAU",
+        "feature_NRpwrW",
+        "feature_FdD8CV"
+      ],
+      "name": "Triple image + texte",
+      "settings": {
+        "title": "Votre partenaire santé au quotidien",
+        "title_size": "2.5rem",
+        "title_weight": "600",
+        "bg_color": "#f8f9fb",
+        "text_color": "#1d2c3c"
+      }
+    },
     "triple_image_text_WCjJfm": {
       "type": "triple-image-text",
       "blocks": {
@@ -985,6 +1037,7 @@
   },
   "order": [
     "video_7Er643",
+    "triple_image_text_bTf87a",
     "triple_image_text_WCjJfm",
     "colonnes_avec_texte_bPWRia",
     "image-link-blocks",
