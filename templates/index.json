@@ -179,6 +179,52 @@
         "spacer_color": "#f8f9fb"
       }
     },
+    "video_tutorial_steps_iGntbj": {
+      "type": "video_tutorial_steps",
+      "blocks": {
+        "video_step_3HNEn7": {
+          "type": "video_step",
+          "settings": {
+            "video_url": "",
+            "title": "Nettoyez votre nez",
+            "description": ""
+          }
+        },
+        "video_step_DfmxKn": {
+          "type": "video_step",
+          "settings": {
+            "video_url": "",
+            "title": "Posez la bande nasale de la bonne taille et inspirez par le nez avec Respire Zen !",
+            "description": ""
+          }
+        },
+        "video_step_YwCPHB": {
+          "type": "video_step",
+          "settings": {
+            "video_url": "",
+            "title": "Posez la bande nasale de la bonne taille et inspirez par le nez avec Respire Zen !",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_step_3HNEn7",
+        "video_step_DfmxKn",
+        "video_step_YwCPHB"
+      ],
+      "name": "Video Tutorial Steps",
+      "settings": {
+        "section_title": "Comment appliquer les patchs de bande nasale ?",
+        "title_size": "2rem",
+        "title_weight": "600",
+        "title_color": "#1d2c3c",
+        "margin_top": "3rem",
+        "margin_bottom": "2rem",
+        "video_title_size": "text-xl",
+        "padding_top": "pt-10",
+        "padding_bottom": "pb-10"
+      }
+    },
     "image-link-blocks": {
       "type": "image-link-blocks",
       "blocks": {
@@ -1005,6 +1051,7 @@
     "espacement_9zqked",
     "colonnes_avec_texte_bPWRia",
     "espacement_h6B9QH",
+    "video_tutorial_steps_iGntbj",
     "image-link-blocks",
     "scrolling-text",
     "collection-list",
