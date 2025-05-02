@@ -1,0 +1,266 @@
+{% comment %}
+  Section : Video Tutorial Steps (Homepage)
+  Affiche jusqu'à 3 vidéos carrées (1:1) avec titre + description.
+  Options de personnalisation complètes du titre principal.
+{% endcomment %}
+
+<div
+  class="video-tutorial-steps {{ section.settings.padding_top }} {{ section.settings.padding_bottom }}"
+  style="padding-top: {{ section.settings.margin_top }}; padding-bottom: {{ section.settings.margin_bottom }};"
+>
+  {% if section.settings.section_title != blank %}
+    <h2 class="section-title"
+        style="font-size: {{ section.settings.title_size }}; font-weight: {{ section.settings.title_weight }}; color: {{ section.settings.title_color }};">
+      {{ section.settings.section_title }}
+    </h2>
+  {% endif %}
+
+  <div class="video-grid">
+    {% for block in section.blocks %}
+      <div class="video-block">
+        {% if block.settings.video_url contains 'youtube.com' or block.settings.video_url contains 'youtu.be' %}
+          <div class="video-wrapper">
+            <iframe
+              src="{{ block.settings.video_url | replace: 'watch?v=', 'embed/' }}?autoplay=1&mute=1&playsinline=1&controls=0&loop=1"
+              frameborder="0"
+              allow="autoplay; encrypted-media"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        {% elsif block.settings.video_url != blank %}
+          <video autoplay muted playsinline loop>
+            <source src="{{ block.settings.video_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        {% endif %}
+
+        {% if block.settings.title != blank %}
+          <h3 class="video-title {{ section.settings.video_title_size }}">{{ block.settings.title }}</h3>
+        {% endif %}
+
+        {% if block.settings.description != blank %}
+          <p class="video-description">{{ block.settings.description }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .video-tutorial-steps {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section-title {
+    margin-bottom: 2rem;
+    word-break: break-word;
+  }
+
+  .video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .video-block {
+    flex: 1 1 300px;
+    max-width: 320px;
+  }
+
+  .video-block video,
+  .video-block .video-wrapper {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-block iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  .video-title {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  .video-description {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  @media (max-width: 767px) {
+    .video-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Video Tutorial Steps",
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "type": "video_step",
+      "name": "Video Step",
+      "settings": [
+        {
+          "type": "url",
+          "id": "video_url",
+          "label": "Video URL (YouTube or MP4 link)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Short Description"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Titre principal de la section",
+      "default": "Three Easy Steps"
+    },
+    {
+      "type": "select",
+      "id": "title_size",
+      "label": "Taille du titre principal",
+      "default": "2.5rem",
+      "options": [
+        { "value": "2rem", "label": "Standard H2" },
+        { "value": "2.5rem", "label": "Grand (comme H1)" },
+        { "value": "3rem", "label": "Très grand" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "title_weight",
+      "label": "Poids du titre principal",
+      "default": "600",
+      "options": [
+        { "value": "400", "label": "Normal" },
+        { "value": "600", "label": "Semi-gras" },
+        { "value": "700", "label": "Gras" }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Couleur du titre principal",
+      "default": "#1d2c3c"
+    },
+    {
+      "type": "select",
+      "id": "margin_top",
+      "label": "Espacement au-dessus du titre",
+      "default": "3rem",
+      "options": [
+        { "value": "0", "label": "Aucun" },
+        { "value": "1rem", "label": "Petit" },
+        { "value": "2rem", "label": "Moyen" },
+        { "value": "3rem", "label": "Grand" },
+        { "value": "5rem", "label": "Très grand" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "margin_bottom",
+      "label": "Espacement en dessous du titre",
+      "default": "2rem",
+      "options": [
+        { "value": "0", "label": "Aucun" },
+        { "value": "1rem", "label": "Petit" },
+        { "value": "2rem", "label": "Moyen" },
+        { "value": "3rem", "label": "Grand" },
+        { "value": "5rem", "label": "Très grand" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "video_title_size",
+      "label": "Taille du titre des vidéos",
+      "default": "text-xl",
+      "options": [
+        { "value": "text-base", "label": "Petit" },
+        { "value": "text-lg", "label": "Moyen" },
+        { "value": "text-xl", "label": "Grand" },
+        { "value": "text-2xl", "label": "Très grand" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "padding_top",
+      "label": "Padding Top de la section",
+      "default": "pt-10",
+      "options": [
+        { "value": "pt-0", "label": "Aucun" },
+        { "value": "pt-5", "label": "Petit" },
+        { "value": "pt-10", "label": "Moyen" },
+        { "value": "pt-20", "label": "Grand" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "padding_bottom",
+      "label": "Padding Bottom de la section",
+      "default": "pb-10",
+      "options": [
+        { "value": "pb-0", "label": "Aucun" },
+        { "value": "pb-5", "label": "Petit" },
+        { "value": "pb-10", "label": "Moyen" },
+        { "value": "pb-20", "label": "Grand" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Tutorial Steps",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "video_step",
+          "settings": {
+            "video_url": "",
+            "title": "Clean Your Nose",
+            "description": "Make sure your skin is clean and dry."
+          }
+        },
+        {
+          "type": "video_step",
+          "settings": {
+            "video_url": "",
+            "title": "Apply Your Tabs",
+            "description": "Stick the magnetic tabs on each side."
+          }
+        },
+        {
+          "type": "video_step",
+          "settings": {
+            "video_url": "",
+            "title": "Attach Your Band",
+            "description": "Snap on the magnetic band and breathe freely."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
