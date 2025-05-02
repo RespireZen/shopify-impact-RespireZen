@@ -220,7 +220,7 @@
         "title_color": "#1d2c3c",
         "margin_top": "3rem",
         "margin_bottom": "2rem",
-        "video_title_size": "text-xl",
+        "video_title_size": "text-lg",
         "padding_top": "pt-10",
         "padding_bottom": "pb-10"
       }
