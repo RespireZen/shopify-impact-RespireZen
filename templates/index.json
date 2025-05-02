@@ -185,7 +185,7 @@
         "video_step_3HNEn7": {
           "type": "video_step",
           "settings": {
-            "video_url": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/1ee1384bf6b84ceb866e9cbabe0760f8.mp4",
             "title": "Nettoyez votre nez",
             "description": ""
           }
@@ -193,7 +193,7 @@
         "video_step_DfmxKn": {
           "type": "video_step",
           "settings": {
-            "video_url": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/9caa11abc684426a99d5043aeb237389.mp4",
             "title": "Appliquez les patchs sur votre nez",
             "description": ""
           }
@@ -201,7 +201,7 @@
         "video_step_YwCPHB": {
           "type": "video_step",
           "settings": {
-            "video_url": "",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/635aebe360cc46c6b9861169dd4a33dc.mp4",
             "title": "Posez la bande nasale de la bonne taille et inspirez par le nez avec Respire Zen !",
             "description": ""
           }
