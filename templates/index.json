@@ -377,6 +377,27 @@
             "title": "Quelle est notre politique de retour ?",
             "content": "<p>Votre satisfaction est notre priorité. Si votre achat ne répond pas à vos attentes, nous avons mis en place une politique de retour simple et sans frais.</p><p>🔄 Vous avez <strong>30 jours</strong> après la réception de votre colis pour demander un retour.<br/><br/>Les frais de retour sont entièrement <strong>pris en charge</strong> pour vous garantir une expérience d'achat sans tracas. Il vous suffit de contacter notre notre service client.</p>"
           }
+        },
+        "item_z8DkHz": {
+          "type": "item",
+          "settings": {
+            "title": "Le paiement sur votre site est-il sécurisé ?",
+            "content": "<p>Absolument. Nous accordons une attention particulière à la protection de vos informations lors de vos achats.</p><p>🔐 Nos systèmes de paiement sont équipés des dernières technologies de sécurité afin de garantir la confidentialité de vos données.</p><p>Vous pouvez donc faire vos achats en toute sérénité, avec l'assurance que vos informations personnelles et bancaires sont protégées.</p>"
+          }
+        },
+        "item_izbDPY": {
+          "type": "item",
+          "settings": {
+            "title": "Comment contacter notre service client ?",
+            "content": "<p>Nous sommes toujours disponibles pour vous accompagner et répondre à vos questions.</p><p>Pour toute demande, vous pouvez nous écrire à l'adresse suivante : <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nos conseillers sont à votre écoute du lundi au vendredi, de 8h à 18h. Que ce soit pour une question sur nos produits, une commande en cours ou toute autre information, nous serons ravis de vous aider.</p>"
+          }
+        },
+        "item_YmEyA8": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je modifier ou annuler ma commande après l'avoir passée ?",
+            "content": "<p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous <strong>le plus rapidement possible</strong> par e-mail à <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p>"
+          }
         }
       },
       "block_order": [
@@ -385,7 +406,10 @@
         "item_Wj4WW4",
         "item_6q7fwC",
         "item_8UizR8",
-        "item_Bnfk87"
+        "item_Bnfk87",
+        "item_z8DkHz",
+        "item_izbDPY",
+        "item_YmEyA8"
       ],
       "name": "FAQ",
       "settings": {
