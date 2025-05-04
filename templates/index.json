@@ -175,7 +175,7 @@
       "type": "espacement",
       "name": "Espacement",
       "settings": {
-        "spacer_height": "20px",
+        "spacer_height": "60px",
         "spacer_color": "#f8f9fb"
       }
     },
