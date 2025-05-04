@@ -179,6 +179,42 @@
         "spacer_color": "#f8f9fb"
       }
     },
+    "impact_text_dFhEKT": {
+      "type": "impact-text",
+      "blocks": {
+        "item_DAzd3a": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "des clients de Respire Zen sont satisfaits",
+            "content": "<p><strong>92%</strong> de ceux qui ont essayé Respire Zen adoptent définitivement les bandes nasales magnétiques Respire Zen, les jugeant plus efficaces et confortables que les solutions classiques.</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_DAzd3a"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.5,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "video_tutorial_steps_iGntbj": {
       "type": "video_tutorial_steps",
       "blocks": {
@@ -1300,6 +1336,7 @@
     "espacement_9zqked",
     "colonnes_avec_texte_bPWRia",
     "espacement_h6B9QH",
+    "impact_text_dFhEKT",
     "video_tutorial_steps_iGntbj",
     "tableau_comparaison_FxwPwG",
     "image-link-blocks",
