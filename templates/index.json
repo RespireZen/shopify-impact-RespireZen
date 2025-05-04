@@ -257,9 +257,9 @@
         "item_4c89yL": {
           "type": "item",
           "settings": {
-            "title": "100%",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
+            "title": "83%",
+            "subheading": "Un récupération complète à 83%",
+            "content": "<p>83% de nos utilisateurs témoignent d’un sommeil plus profond et réparateur, favorisant des réveils plus énergétiques et des journées plus productives.</p>",
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
@@ -277,7 +277,7 @@
         "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "none",
-        "impact_text_size_ratio": 1,
+        "impact_text_size_ratio": 0.5,
         "background": "",
         "background_gradient": "",
         "heading_text_color": "",
