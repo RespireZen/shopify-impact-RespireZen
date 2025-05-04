@@ -215,6 +215,78 @@
         "button_text_color": ""
       }
     },
+    "impact_text_dUMFrB": {
+      "type": "impact-text",
+      "blocks": {
+        "item_GQiLN8": {
+          "type": "item",
+          "settings": {
+            "title": "85%",
+            "subheading": "Un sommeil enfin apaisé à 85%",
+            "content": "<p><strong>85%</strong> de nos clients ont observé une nette réduction des ronflements et des symptômes liés à l’apnée du sommeil, leur permettant de profiter de nuits plus calmes.</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_GQiLN8"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 0.5,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "impact_text_DK4TgC": {
+      "type": "impact-text",
+      "blocks": {
+        "item_4c89yL": {
+          "type": "item",
+          "settings": {
+            "title": "100%",
+            "subheading": "Showcase a benefit of your product",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_4c89yL"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "video_tutorial_steps_iGntbj": {
       "type": "video_tutorial_steps",
       "blocks": {
@@ -1337,6 +1409,8 @@
     "colonnes_avec_texte_bPWRia",
     "espacement_h6B9QH",
     "impact_text_dFhEKT",
+    "impact_text_dUMFrB",
+    "impact_text_DK4TgC",
     "video_tutorial_steps_iGntbj",
     "tableau_comparaison_FxwPwG",
     "image-link-blocks",
