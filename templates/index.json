@@ -356,12 +356,20 @@
             "title": "Combien de temps durent vos bandes nasales magnétiques ?",
             "content": "<p>Avec un entretien régulier, nos bandes ont été développées pour durer plusieurs années. Leur matériau robuste et leur technologie magnétique garantissent une efficacité durable.</p>"
           }
+        },
+        "item_6q7fwC": {
+          "type": "item",
+          "settings": {
+            "title": "Les bandes nasales sont-elles adaptées à tous les âges ?",
+            "content": "<p>Nos bandes ont été développées pour les adultes. Elles sont tout de même utilisables par les adolescents. Si vous souhaitez les utiliser pour une personne ayant des besoins spécifiques, nous vous conseillons de consulter un professionnel de santé pour vous assurer qu’elles conviennent parfaitement.</p>"
+          }
         }
       },
       "block_order": [
         "item_K3PFyb",
         "item_6aFFU8",
-        "item_Wj4WW4"
+        "item_Wj4WW4",
+        "item_6q7fwC"
       ],
       "name": "FAQ",
       "settings": {
