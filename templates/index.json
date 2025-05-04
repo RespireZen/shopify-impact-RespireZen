@@ -699,6 +699,30 @@
         "text_gradient": ""
       }
     },
+    "before-after-image": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Ouverture du nez : avant / après avec nos bandes nasales magnétiques",
+        "content": "",
+        "before_image": "shopify://shop_images/Bande_nasale_magnetique_avant.webp",
+        "after_image": "shopify://shop_images/Bande_nasale_magnetique_apres.webp",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -800,30 +824,6 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
-      }
-    },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Ouverture du nez : avant / après avec nos bandes nasales magnétiques",
-        "content": "",
-        "before_image": "shopify://shop_images/Bande_nasale_magnetique_avant.webp",
-        "after_image": "shopify://shop_images/Bande_nasale_magnetique_apres.webp",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
       }
     },
     "press": {
@@ -960,11 +960,11 @@
     "impact_text_dUMFrB",
     "impact_text_DK4TgC",
     "video_tutorial_steps_iGntbj",
-    "faq_PGTFKG",
-    "tableau_comparaison_FxwPwG",
-    "scrolling-text",
-    "media-grid",
     "before-after-image",
+    "faq_PGTFKG",
+    "scrolling-text",
+    "tableau_comparaison_FxwPwG",
+    "media-grid",
     "press",
     "featured-product"
   ]
