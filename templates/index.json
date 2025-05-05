@@ -384,6 +384,47 @@
         "review_button_text_color": "#ffffff"
       }
     },
+    "images_with_text_scrolling_FFDGhG": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_EiaxCM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Economie_avec_nos_abonnements.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Économisez grâce à nos abonnements",
+            "content": "<p>Ne vous souciez plus d'avoir à passer commande à chaque fois pour vos patchs ! Avec notre formule d’abonnement, recevez vos recharges de patchs pour bandes nasales directement chez vous tous les 2 ou 3 mois ! En souscrivant à un abonnement, vous économisez entre 20 et 30% en profitant de nos meilleures offres.</p>"
+          }
+        },
+        "item_icgRJY": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Continuez à bien respirer avec nos recharges de patchs",
+            "content": "<p>Assurez-vous de ne jamais manquer de patchs pour bandes nasales magnétiques grâce à nos <strong>recharges de patchs</strong>.</p><p>Pas besoin de recommander un nouveau kit, vous avez juste à choisir la quantité de patchs désirée. Plus vous achetez, plus vous économisez !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_EiaxCM",
+        "item_icgRJY"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "faq_PGTFKG": {
       "type": "faq",
       "blocks": {
@@ -996,6 +1037,7 @@
     "video_tutorial_steps_iGntbj",
     "before-after-image",
     "174646077151f84787",
+    "images_with_text_scrolling_FFDGhG",
     "faq_PGTFKG",
     "scrolling-text",
     "tableau_comparaison_FxwPwG",
