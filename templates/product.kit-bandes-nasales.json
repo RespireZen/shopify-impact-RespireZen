@@ -145,7 +145,7 @@
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "start",
@@ -176,7 +176,7 @@
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "end",
