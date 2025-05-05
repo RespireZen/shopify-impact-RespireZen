@@ -333,6 +333,30 @@
         "padding_bottom": "pb-10"
       }
     },
+    "before-after-image": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Ouverture du nez : avant / après avec nos bandes nasales magnétiques",
+        "content": "",
+        "before_image": "shopify://shop_images/Bande_nasale_magnetique_avant.webp",
+        "after_image": "shopify://shop_images/Bande_nasale_magnetique_apres.webp",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "faq_PGTFKG": {
       "type": "faq",
       "blocks": {
@@ -432,6 +456,22 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
+      }
+    },
+    "scrolling-text": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "large",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
       }
     },
     "tableau_comparaison_FxwPwG": {
@@ -683,46 +723,6 @@
         "lazy": true
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Ouverture du nez : avant / après avec nos bandes nasales magnétiques",
-        "content": "",
-        "before_image": "shopify://shop_images/Bande_nasale_magnetique_avant.webp",
-        "after_image": "shopify://shop_images/Bande_nasale_magnetique_apres.webp",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "media-grid": {
       "type": "media-grid",
       "blocks": {
@@ -905,6 +905,12 @@
             "size_chart_page": ""
           }
         },
+        "kaching_bundles_app_block_zhgHUd": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "quantity-selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -928,6 +934,7 @@
         "rating",
         "separator",
         "variant-picker",
+        "kaching_bundles_app_block_zhgHUd",
         "quantity-selector",
         "buy-buttons"
       ],
