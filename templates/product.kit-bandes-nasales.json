@@ -63,16 +63,6 @@
             "banner_display": "all",
             "banner_id": "3a81b080-a3ab-4017-b430-f5117ae93d45"
           }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
         }
       },
       "block_order": [
@@ -83,9 +73,7 @@
         "kaching_bundles_app_block_MWdKHg",
         "buy_buttons",
         "reeltok_reeltok_zLUKMV",
-        "essential_trust_badges_app_block_M4PjGH",
-        "separator",
-        "description"
+        "essential_trust_badges_app_block_M4PjGH"
       ],
       "settings": {
         "full_width": true,
