@@ -91,10 +91,11 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
+            "image": "shopify://shop_images/Logo_Respire_Zen_a1ee09e8-b4d0-4716-87a7-bdfd29fd2ee1.webp",
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
-            "content": ""
+            "title": "Prenez votre respiration en main avec Respire Zen",
+            "content": "<p>Inscrivez-vous pour recevoir des informations, des mises à jour et des offres exclusives !</p>"
           }
         },
         "links": {
