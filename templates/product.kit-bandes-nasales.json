@@ -178,46 +178,44 @@
         "heading_gradient": ""
       }
     },
-    "rich_text_w7wFyR": {
-      "type": "rich-text",
+    "impact_text_wKmn3q": {
+      "type": "impact-text",
       "blocks": {
-        "heading_Q88Vat": {
-          "type": "heading",
+        "item_3w7Pyc": {
+          "type": "item",
           "settings": {
-            "text": "Comment appliquer les patchs de bandes nasales Respire Zen ?",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
+            "title": "",
+            "subheading": "",
+            "content": "<h2>Comment appliquer les patchs de bandes nasales Respire Zen ?</h2>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
           }
         }
       },
       "block_order": [
-        "heading_Q88Vat"
+        "item_3w7Pyc"
       ],
-      "name": "Rich text",
+      "name": "Impact text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "video_eGhfXE": {
       "type": "video",
-      "blocks": {
-        "heading_rGxNLx": {
-          "type": "heading",
-          "settings": {
-            "text": "Comment appliquer les patchs de bandes nasales Respire Zen ?",
-            "heading_tag": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rGxNLx"
-      ],
       "name": "Video",
       "settings": {
         "full_width": false,
@@ -237,7 +235,7 @@
     "rich_text_rGDr8G",
     "images_with_text_scrolling_JKVNJy",
     "images_with_text_scrolling_phXggA",
-    "rich_text_w7wFyR",
+    "impact_text_wKmn3q",
     "video_eGhfXE"
   ]
 }
