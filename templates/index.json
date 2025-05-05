@@ -574,12 +574,24 @@
           "settings": {
             "content": "<p>Assurez-vous de ne jamais manquer de patchs pour bandes nasales magnétiques grâce à nos <strong>recharges de patchs</strong>.</p><p>Pas besoin de recommander un nouveau kit, vous avez juste à choisir la quantité de patchs désirée. Plus vous achetez, plus vous économisez !</p>"
           }
+        },
+        "button_YgyE6J": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Respirez sans interruption",
+            "url": "shopify://products/recharges-de-patchs-pour-bandes-nasales-magnetiques",
+            "background": "#32a1d5",
+            "text_color": "#ffffff"
+          }
         }
       },
       "block_order": [
         "image_XxLAMM",
         "heading_Ny9wFV",
-        "richtext_PcndVe"
+        "richtext_PcndVe",
+        "button_YgyE6J"
       ],
       "name": "Rich text",
       "settings": {
