@@ -115,10 +115,72 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "images_with_text_scrolling_JKVNJy": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_McFiyY": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Des nuits calmes pour une meilleure récupération nocturne",
+            "content": "<p>Dites adieu aux nuits agitées qui deviendront des moments de régénération. Un sommeil de qualité favorise la réparation cellulaire et apaise le système nerveux. En améliorant votre respiration, vous plongez dans un sommeil profond et réparateur qui réduit les interruptions nocturnes. Vous pourrez enfin vous levez avec entrain et motivation.</p><h2>Une bouche en meilleure santé</h2><p>Un bon sommeil contribue indirectement à votre santé bucco-dentaire en limitant la sécheresse buccale et en renforçant votre système immunitaire.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_McFiyY"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "images_with_text_scrolling_phXggA": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_rGYFRk": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Améliorez votre capacité respiratoire et votre fréquence cardiaque",
+            "content": "<p>Les bandes nasales de Respire Zen améliorent votre capacité de concentration et renforcent votre endurance pour rester performant et productif toute la journée. Elles favorisent une meilleure régénération musculaire et mentale pour conserver votre énergie et votre vitalité, même après des journées intenses.</p><p>Avec Respire Zen, maintenez un rythme cardiaque équilibré pour améliorer votre confort lors de vos efforts physiques et activités quotidiennes. Vous optimiserez un meilleur apport d’oxygène vers vos muscles et votre cerveau. Cela permet d’atteindre de meilleures performances physiques et mentales en augmentant votre endurance et votre concentration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_rGYFRk"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_rGDr8G"
+    "rich_text_rGDr8G",
+    "images_with_text_scrolling_JKVNJy",
+    "images_with_text_scrolling_phXggA"
   ]
 }
