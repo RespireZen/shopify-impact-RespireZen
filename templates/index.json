@@ -563,29 +563,19 @@
         "subheading_ccA7Nn": {
           "type": "subheading",
           "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_xKkj4P": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
+            "text": "Économisez grâce à nos abonnements"
           }
         },
         "richtext_eYWmVC": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Ne vous souciez plus d'avoir à passer commande à chaque fois pour vos patchs ! Avec notre formule d’abonnement, recevez vos recharges de patchs pour bandes nasales directement chez vous tous les 2 ou 3 mois ! En souscrivant à un abonnement, vous économisez entre 20 et 30% en profitant de nos meilleures offres.</p>"
           }
         }
       },
       "block_order": [
         "image_JtQg4i",
         "subheading_ccA7Nn",
-        "heading_xKkj4P",
         "richtext_eYWmVC"
       ],
       "name": "Rich text",
@@ -614,7 +604,7 @@
           "type": "heading",
           "settings": {
             "text": "Continuez à bien respirer avec nos recharges de patchs",
-            "heading_tag": "h2",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
