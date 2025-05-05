@@ -86,39 +86,6 @@
         "heading_gradient": ""
       }
     },
-    "rich_text_TYdGUP": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LaFNeD": {
-          "type": "heading",
-          "settings": {
-            "text": "Changez de vie avec Respire Zen",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_MzaWce": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Découvrez la meilleure façon d’améliorer votre respiration grâce aux bandes nasales magnétiques <strong>Respire Zen</strong>. Développées pour dégager efficacement vos voies respiratoires, elles favorisent une meilleure circulation de l’air en quelques secondes. Nos bandes nasales <strong>Respire Zen</strong> sont une solution simple, naturelle et innovante pour retrouver un souffle agréable, passer des nuits plus paisibles sans ronflements et pour les sportifs en quête de meilleures performances.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LaFNeD",
-        "richtext_MzaWce"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "triple_image_text_WCjJfm": {
       "type": "triple-image-text",
       "blocks": {
@@ -1113,7 +1080,6 @@
   "order": [
     "video_7Er643",
     "images_with_text_scrolling_J7RMiL",
-    "rich_text_TYdGUP",
     "triple_image_text_WCjJfm",
     "espacement_9zqked",
     "colonnes_avec_texte_bPWRia",
