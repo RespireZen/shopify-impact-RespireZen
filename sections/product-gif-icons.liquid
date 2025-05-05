@@ -1,0 +1,149 @@
+<div class="product-gif-icons">
+  <div class="gif-grid">
+    {% for i in (1..4) %}
+      {% assign image_key = "gif_image_" | append: i %}
+      {% assign text_key = "text_" | append: i %}
+      {% assign img = section.settings[image_key] %}
+      {% assign txt = section.settings[text_key] %}
+      {% if img != blank %}
+        <div class="gif-item">
+          <img
+            src="{{ img | image_url: width: section.settings.icon_size }}"
+            alt="{{ txt | escape }}"
+            width="{{ section.settings.icon_size }}"
+            height="{{ section.settings.icon_size }}"
+            loading="lazy"
+          >
+          <div class="gif-label"
+            style="background-color: {{ section.settings.label_bg }};
+                   color: {{ section.settings.label_color }}">
+            {{ txt }}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .product-gif-icons {
+    margin-top: 1rem;
+  }
+
+  .gif-grid {
+  display: flex;
+  gap: {{ section.settings.gif_gap | default: 16 }}px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+  .gif-item {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+  }
+
+  .gif-label {
+    margin-top: 0.3rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "GIFs animés produit",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "gif_image_1",
+      "label": "GIF 1"
+    },
+    {
+      "type": "text",
+      "id": "text_1",
+      "label": "Texte 1",
+      "default": "Livraison 48h"
+    },
+    {
+      "type": "image_picker",
+      "id": "gif_image_2",
+      "label": "GIF 2"
+    },
+    {
+      "type": "text",
+      "id": "text_2",
+      "label": "Texte 2",
+      "default": "Paiement sécurisé"
+    },
+    {
+      "type": "image_picker",
+      "id": "gif_image_3",
+      "label": "GIF 3"
+    },
+    {
+      "type": "text",
+      "id": "text_3",
+      "label": "Texte 3",
+      "default": "Retour gratuit"
+    },
+    {
+      "type": "image_picker",
+      "id": "gif_image_4",
+      "label": "GIF 4"
+    },
+    {
+      "type": "text",
+      "id": "text_4",
+      "label": "Texte 4",
+      "default": "SAV réactif"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Taille des GIFs (px)",
+      "min": 30,
+      "max": 100,
+      "step": 5,
+      "default": 60
+    },
+    {
+      "type": "color",
+      "id": "label_bg",
+      "label": "Couleur de fond des étiquettes",
+      "default": "#f3f4f6"
+    },
+    {
+      "type": "color",
+      "id": "label_color",
+      "label": "Couleur du texte",
+      "default": "#333333"
+    },
+    {
+  "type": "range",
+  "id": "gif_gap",
+  "label": "Espacement entre les GIFs (px)",
+  "min": 4,
+  "max": 48,
+  "step": 2,
+  "default": 16
+},
+
+  ],
+  "presets": [
+    {
+      "name": "GIFs animés x4"
+    },
+    
+  ]
+}
+{% endschema %}
