@@ -540,19 +540,6 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "custom_liquid_TEhAaq": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "rich_text_gq88QT": {
       "type": "rich-text",
       "blocks": {
@@ -1149,7 +1136,6 @@
     "press",
     "video_tutorial_steps_iGntbj",
     "174646077151f84787",
-    "custom_liquid_TEhAaq",
     "rich_text_gq88QT",
     "rich_text_4zjxfD",
     "faq_PGTFKG",
