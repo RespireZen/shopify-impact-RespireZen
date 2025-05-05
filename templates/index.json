@@ -357,10 +357,10 @@
         "drag_cursor_color": "#000000"
       }
     },
-    "174646063945d82a4e": {
+    "174646077151f84787": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_featured_carousel_kqA8Pm": {
+        "judge_me_reviews_featured_carousel_xFBNWc": {
           "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
@@ -368,7 +368,7 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_featured_carousel_kqA8Pm"
+        "judge_me_reviews_featured_carousel_xFBNWc"
       ],
       "settings": {
         "full_width": true,
@@ -995,7 +995,7 @@
     "impact_text_DK4TgC",
     "video_tutorial_steps_iGntbj",
     "before-after-image",
-    "174646063945d82a4e",
+    "174646077151f84787",
     "faq_PGTFKG",
     "scrolling-text",
     "tableau_comparaison_FxwPwG",
