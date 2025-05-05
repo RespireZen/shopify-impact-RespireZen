@@ -59,9 +59,16 @@
         },
         "essential_trust_badges_app_block_M4PjGH": {
           "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "disabled": true,
           "settings": {
             "banner_display": "all",
             "banner_id": "3a81b080-a3ab-4017-b430-f5117ae93d45"
+          }
+        },
+        "description_EUn66Y": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
           }
         }
       },
@@ -73,7 +80,8 @@
         "kaching_bundles_app_block_MWdKHg",
         "buy_buttons",
         "reeltok_reeltok_zLUKMV",
-        "essential_trust_badges_app_block_M4PjGH"
+        "essential_trust_badges_app_block_M4PjGH",
+        "description_EUn66Y"
       ],
       "settings": {
         "full_width": false,
@@ -106,6 +114,7 @@
       "block_order": [
         "richtext_4Nh3wY"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
