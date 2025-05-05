@@ -548,6 +548,49 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_4zjxfD": {
+      "type": "rich-text",
+      "blocks": {
+        "image_XxLAMM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rechargesdepatchspourbandesnasales.webp",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "heading_Ny9wFV": {
+          "type": "heading",
+          "settings": {
+            "text": "Continuez à bien respirer avec nos recharges de patchs",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_PcndVe": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Assurez-vous de ne jamais manquer de patchs pour bandes nasales magnétiques grâce à nos <strong>recharges de patchs</strong>.</p><p>Pas besoin de recommander un nouveau kit, vous avez juste à choisir la quantité de patchs désirée. Plus vous achetez, plus vous économisez !</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_XxLAMM",
+        "heading_Ny9wFV",
+        "richtext_PcndVe"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "press": {
       "type": "press",
       "blocks": {
@@ -1089,6 +1132,7 @@
     "174646077151f84787",
     "images_with_text_scrolling_FFDGhG",
     "images_with_text_scrolling_Yrk49K",
+    "rich_text_4zjxfD",
     "press",
     "faq_PGTFKG",
     "scrolling-text",
