@@ -228,6 +228,65 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "multi_column_qxYXcx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CpmHeq": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 1 : Nettoyage de votre nez",
+            "heading_tag": "h3",
+            "content": "<p>Avant d'appliquer votre bande nasale magnétique, assurez-vous que votre peau est propre et sèche. Utilisez de l’eau et du savon ou une lingette antiseptique pour éliminer les impuretés et garantir une meilleure adhésion.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cTahRG": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 2 : Pose des points de fixation",
+            "heading_tag": "h3",
+            "content": "<p>Munissez-vous de l’applicateur magnétique pour positionner précisément les languettes adhésives de chaque côté de votre nez. Exercez une légère pression pour qu'elles adhèrent correctement.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_bwJkny": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 3 : Installation de la bande nasale magnétique",
+            "heading_tag": "h3",
+            "content": "<p>Placez la bande magnétique sur votre nez. Grâce à son système d'aimants puissant, elle agira naturellement pour élargir vos voies respiratoires et améliorer votre flux d'air.</p><p>✅ <strong>Inspirez profondément... et sentez immédiatement la différence avec Respire Zen</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CpmHeq",
+        "item_cTahRG",
+        "item_bwJkny"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -236,6 +295,7 @@
     "images_with_text_scrolling_JKVNJy",
     "images_with_text_scrolling_phXggA",
     "impact_text_wKmn3q",
-    "video_eGhfXE"
+    "video_eGhfXE",
+    "multi_column_qxYXcx"
   ]
 }
