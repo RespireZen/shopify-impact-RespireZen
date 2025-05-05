@@ -548,6 +548,60 @@
         "heading_gradient": ""
       }
     },
+    "press": {
+      "type": "press",
+      "blocks": {
+        "16644243327ba53d2a-0": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Logo-doctissimo_svg.webp",
+            "logo_width": 150,
+            "author": "",
+            "content": "Les meilleures bandes nasales du marché que l'on a pu tester",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "16644243327ba53d2a-1": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/logo-santemagazine.66c002f8.webp",
+            "logo_width": 120,
+            "author": "",
+            "content": "Enfin une solution efficace pour les ronflements et les problèmes de respiration",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_gVFyRV": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Le_Parisien_logo_svg.webp",
+            "logo_width": 100,
+            "author": "",
+            "content": "Un vrai plus pour les sportifs qui veulent améliorer leur respiration",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "16644243327ba53d2a-0",
+        "16644243327ba53d2a-1",
+        "quote_gVFyRV"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
     "faq_PGTFKG": {
       "type": "faq",
       "blocks": {
@@ -789,6 +843,7 @@
         "table_row_QhfVHm",
         "table_row_7V9h7J"
       ],
+      "disabled": true,
       "name": "Meditrust - Compare Table",
       "settings": {
         "selected_theme": "standard",
@@ -1015,60 +1070,6 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
-      }
-    },
-    "press": {
-      "type": "press",
-      "blocks": {
-        "16644243327ba53d2a-0": {
-          "type": "quote",
-          "settings": {
-            "logo": "shopify://shop_images/Logo-doctissimo_svg.webp",
-            "logo_width": 150,
-            "author": "",
-            "content": "Les meilleures bandes nasales du marché que l'on a pu tester",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "16644243327ba53d2a-1": {
-          "type": "quote",
-          "settings": {
-            "logo": "shopify://shop_images/logo-santemagazine.66c002f8.webp",
-            "logo_width": 120,
-            "author": "",
-            "content": "Enfin une solution efficace pour les ronflements et les problèmes de respiration",
-            "show_rating": true,
-            "rating": 5
-          }
-        },
-        "quote_gVFyRV": {
-          "type": "quote",
-          "settings": {
-            "logo": "shopify://shop_images/Le_Parisien_logo_svg.webp",
-            "logo_width": 100,
-            "author": "",
-            "content": "Un vrai plus pour les sportifs qui veulent améliorer leur respiration",
-            "show_rating": true,
-            "rating": 5
-          }
-        }
-      },
-      "block_order": [
-        "16644243327ba53d2a-0",
-        "16644243327ba53d2a-1",
-        "quote_gVFyRV"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_size": "medium",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "",
-        "logo_item_border": ""
       }
     }
   },
