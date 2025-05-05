@@ -389,6 +389,30 @@
         "button_text_color": ""
       }
     },
+    "before-after-image": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Ouverture du nez : avant / après avec nos bandes nasales magnétiques",
+        "content": "",
+        "before_image": "shopify://shop_images/Bande_nasale_magnetique_avant.webp",
+        "after_image": "shopify://shop_images/Bande_nasale_magnetique_apres.webp",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
+      }
+    },
     "video_tutorial_steps_iGntbj": {
       "type": "video_tutorial_steps",
       "blocks": {
@@ -435,30 +459,6 @@
         "padding_bottom": "pb-10"
       }
     },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Ouverture du nez : avant / après avec nos bandes nasales magnétiques",
-        "content": "",
-        "before_image": "shopify://shop_images/Bande_nasale_magnetique_avant.webp",
-        "after_image": "shopify://shop_images/Bande_nasale_magnetique_apres.webp",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
-      }
-    },
     "174646077151f84787": {
       "type": "apps",
       "blocks": {
@@ -484,68 +484,6 @@
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
-      }
-    },
-    "images_with_text_scrolling_FFDGhG": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_EiaxCM": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Economie_avec_nos_abonnements.webp",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Économisez grâce à nos abonnements",
-            "content": "<p>Ne vous souciez plus d'avoir à passer commande à chaque fois pour vos patchs ! Avec notre formule d’abonnement, recevez vos recharges de patchs pour bandes nasales directement chez vous tous les 2 ou 3 mois ! En souscrivant à un abonnement, vous économisez entre 20 et 30% en profitant de nos meilleures offres.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_EiaxCM"
-      ],
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "images_with_text_scrolling_Yrk49K": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_qyxmY6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Rechargesdepatchspourbandesnasales.webp",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Continuez à bien respirer avec nos recharges de patchs",
-            "content": "<p>Assurez-vous de ne jamais manquer de patchs pour bandes nasales magnétiques grâce à nos <strong>recharges de patchs</strong>.</p><p>Pas besoin de recommander un nouveau kit, vous avez juste à choisir la quantité de patchs désirée. Plus vous achetez, plus vous économisez !</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_qyxmY6"
-      ],
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "rich_text_gq88QT": {
@@ -1194,14 +1132,12 @@
     "impact_text_dFhEKT",
     "impact_text_dUMFrB",
     "impact_text_DK4TgC",
-    "video_tutorial_steps_iGntbj",
     "before-after-image",
+    "press",
+    "video_tutorial_steps_iGntbj",
     "174646077151f84787",
-    "images_with_text_scrolling_FFDGhG",
-    "images_with_text_scrolling_Yrk49K",
     "rich_text_gq88QT",
     "rich_text_4zjxfD",
-    "press",
     "faq_PGTFKG",
     "scrolling-text",
     "tableau_comparaison_FxwPwG",
