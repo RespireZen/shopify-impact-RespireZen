@@ -963,9 +963,10 @@
         "16644243327ba53d2a-1": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/logo-santemagazine.66c002f8.webp",
+            "logo_width": 120,
             "author": "",
-            "content": "Or share content about your promotion, offers...",
+            "content": "Enfin une solution efficace pour les ronflements et les problèmes de respiration",
             "show_rating": false,
             "rating": 4
           }
