@@ -102,22 +102,21 @@
           "type": "links",
           "settings": {
             "menu": "menu-pied-de-page-informations-l-gales",
-            "show_menu_title": true
+            "show_menu_title": false
           }
         },
-        "text": {
-          "type": "text",
+        "links_3mQCjj": {
+          "type": "links",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
+            "menu": "menu-pied-de-page-service-client",
+            "show_menu_title": false
           }
         }
       },
       "block_order": [
         "newsletter",
         "links",
-        "text"
+        "links_3mQCjj"
       ],
       "settings": {
         "show_social_media": true,
