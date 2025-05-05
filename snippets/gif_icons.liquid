@@ -1,0 +1,55 @@
+<div class="product-gif-icons">
+  <div class="gif-grid">
+    {% for i in (1..4) %}
+      {% assign image_key = "gif_image_" | append: i %}
+      {% assign text_key = "text_" | append: i %}
+      {% assign img = block.settings[image_key] %}
+      {% assign txt = block.settings[text_key] %}
+      {% if img != blank %}
+        <div class="gif-item">
+          <img
+            src="{{ img | image_url: width: 60 }}"
+            alt="{{ txt | escape }}"
+            width="60"
+            height="60"
+            loading="lazy"
+          >
+          <div class="gif-label"
+            style="background-color: {{ block.settings.label_bg }};
+                   color: {{ block.settings.label_color }};
+                   margin-top: 4px;
+                   padding: 2px 6px;
+                   border-radius: 6px;
+                   font-size: 12px;">
+            {{ txt }}
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .product-gif-icons {
+    margin-top: 1rem;
+  }
+
+  .gif-grid {
+  display: flex;
+  gap: {{ block.settings.gif_gap | default: 16 }}px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+  .gif-item {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+  }
+</style>
