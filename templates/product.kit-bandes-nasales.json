@@ -104,9 +104,33 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "rich_text_rGDr8G": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_4Nh3wY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Notre <strong>kit de bandes nasales magnétiques Respire Zen</strong> a été développé pour améliorer votre respiration nasale et favoriser un sommeil réparateur. Grâce à sa technologie magnétique innovante, elles ouvrent délicatement les voies nasales pour faciliter le passage de l'air.</p><p>Respire Zen vous change la vie si vous souffrez :</p><p>de congestion nasale</p><p>d’apnée du sommeil modérée</p><p>de cloison nasale déviée</p><p>de ronflements</p><p>d'allergies</p><p>Les bandes nasales magnétiques Respire Zen vous aident à mieux respirer pour profiter d'un sommeil plus profond et paisible, et à améliorer vos performances sportives.</p><p>Notre kit est fournit avec 30 patchs, correspondant à 15 jours d’utilisation. Nous proposons des <a href=\"https://inflow-shop.com/products/recharges-de-patchs-pour-bandes-nasales-magnetiques\">recharges de patchs pour bandes nasales</a>, donc pas besoin de racheter de kit !</p><p>Vous pouvez économiser en souscrivant à l’un de nos <a href=\"https://inflow-shop.com/collections/abonnements-de-recharges-de-patchs\">abonnements pour recevoir vos patchs</a> directement chez vous tous les 2 ou 3 mois.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_4Nh3wY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_rGDr8G"
   ]
 }
