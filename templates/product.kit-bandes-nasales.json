@@ -178,6 +178,32 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_w7wFyR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Q88Vat": {
+          "type": "heading",
+          "settings": {
+            "text": "Comment appliquer les patchs de bandes nasales Respire Zen ?",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q88Vat"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "video_eGhfXE": {
       "type": "video",
       "blocks": {
@@ -211,6 +237,7 @@
     "rich_text_rGDr8G",
     "images_with_text_scrolling_JKVNJy",
     "images_with_text_scrolling_phXggA",
+    "rich_text_w7wFyR",
     "video_eGhfXE"
   ]
 }
