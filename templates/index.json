@@ -581,7 +581,7 @@
             "style": "fill",
             "size": "xl",
             "text": "Voir nos abonnements",
-            "url": "",
+            "url": "shopify://collections/abonnements-de-recharges-de-patchs",
             "background": "#32a1d5",
             "text_color": ""
           }
