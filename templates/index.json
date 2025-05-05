@@ -75,7 +75,7 @@
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "end",
@@ -223,16 +223,6 @@
           "type": "badges",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "separator": {
-          "type": "separator",
-          "settings": {}
-        },
         "variant-picker": {
           "type": "variant_picker",
           "settings": {
@@ -268,8 +258,6 @@
       "block_order": [
         "title",
         "badges",
-        "price",
-        "separator",
         "variant-picker",
         "kaching_bundles_app_block_zhgHUd",
         "quantity-selector",
@@ -518,7 +506,7 @@
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "start",
@@ -549,7 +537,7 @@
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
-        "stack_on_mobile": false,
+        "stack_on_mobile": true,
         "show_counter": false,
         "desktop_image_effect": "reveal",
         "image_position": "end",
@@ -1100,10 +1088,10 @@
     "174646077151f84787",
     "images_with_text_scrolling_FFDGhG",
     "images_with_text_scrolling_Yrk49K",
+    "press",
     "faq_PGTFKG",
     "scrolling-text",
     "tableau_comparaison_FxwPwG",
-    "media-grid",
-    "press"
+    "media-grid"
   ]
 }
