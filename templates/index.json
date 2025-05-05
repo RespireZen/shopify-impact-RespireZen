@@ -574,12 +574,24 @@
           "settings": {
             "content": "<p>Ne vous souciez plus d'avoir à passer commande à chaque fois pour vos patchs ! Avec notre formule d’abonnement, recevez vos recharges de patchs pour bandes nasales directement chez vous tous les 2 ou 3 mois ! En souscrivant à un abonnement, vous économisez entre 20 et 30% en profitant de nos meilleures offres.</p>"
           }
+        },
+        "button_a6DVp3": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "xl",
+            "text": "Voir nos abonnements",
+            "url": "",
+            "background": "#32a1d5",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "image_JtQg4i",
         "heading_4E8FrL",
-        "richtext_eYWmVC"
+        "richtext_eYWmVC",
+        "button_a6DVp3"
       ],
       "name": "Rich text",
       "settings": {
