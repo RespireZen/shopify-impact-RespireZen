@@ -57,6 +57,13 @@
             "journey_uuid": "a159264b-7478-4fa9-ad91-6054297c0c1a"
           }
         },
+        "essential_trust_badges_app_block_M4PjGH": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "settings": {
+            "banner_display": "all",
+            "banner_id": ""
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -76,6 +83,7 @@
         "kaching_bundles_app_block_MWdKHg",
         "buy_buttons",
         "reeltok_reeltok_zLUKMV",
+        "essential_trust_badges_app_block_M4PjGH",
         "separator",
         "description"
       ],
