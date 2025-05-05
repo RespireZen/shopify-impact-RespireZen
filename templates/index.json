@@ -560,10 +560,13 @@
             "mobile_max_width": 400
           }
         },
-        "subheading_ccA7Nn": {
-          "type": "subheading",
+        "heading_4E8FrL": {
+          "type": "heading",
           "settings": {
-            "text": "Économisez grâce à nos abonnements"
+            "text": "Économisez grâce à nos abonnements",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
           }
         },
         "richtext_eYWmVC": {
@@ -575,7 +578,7 @@
       },
       "block_order": [
         "image_JtQg4i",
-        "subheading_ccA7Nn",
+        "heading_4E8FrL",
         "richtext_eYWmVC"
       ],
       "name": "Rich text",
