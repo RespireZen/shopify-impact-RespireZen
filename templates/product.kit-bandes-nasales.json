@@ -122,6 +122,7 @@
         "item_McFiyY": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Des_nuits_plus_reposantes_pour_un_reveil_plein_d_energie.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Des nuits calmes pour une meilleure récupération nocturne",
@@ -152,6 +153,7 @@
         "item_rGYFRk": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Femme_faisant_de_la_randonnee_avec_des_bandes_nasales_magnetiques.webp",
             "icon": "none",
             "icon_width": 48,
             "title": "Améliorez votre capacité respiratoire et votre fréquence cardiaque",
