@@ -111,12 +111,20 @@
             "menu": "menu-pied-de-page-service-client",
             "show_menu_title": false
           }
+        },
+        "links_wUHYTP": {
+          "type": "links",
+          "settings": {
+            "menu": "menu-pied-de-page-propos-de-nous",
+            "show_menu_title": false
+          }
         }
       },
       "block_order": [
         "newsletter",
         "links",
-        "links_3mQCjj"
+        "links_3mQCjj",
+        "links_wUHYTP"
       ],
       "settings": {
         "show_social_media": true,
