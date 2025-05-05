@@ -548,6 +548,56 @@
         "heading_gradient": ""
       }
     },
+    "rich_text_gq88QT": {
+      "type": "rich-text",
+      "blocks": {
+        "image_JtQg4i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Economie_avec_nos_abonnements.webp",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
+        "subheading_ccA7Nn": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_xKkj4P": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_eYWmVC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_JtQg4i",
+        "subheading_ccA7Nn",
+        "heading_xKkj4P",
+        "richtext_eYWmVC"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_4zjxfD": {
       "type": "rich-text",
       "blocks": {
@@ -1144,6 +1194,7 @@
     "174646077151f84787",
     "images_with_text_scrolling_FFDGhG",
     "images_with_text_scrolling_Yrk49K",
+    "rich_text_gq88QT",
     "rich_text_4zjxfD",
     "press",
     "faq_PGTFKG",
