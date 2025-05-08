@@ -584,14 +584,14 @@
         "text_XyPDGP": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Quelle est notre politique de retour ?",
+            "answer": "<p>Votre satisfaction est notre priorité. Si votre achat ne répond pas à vos attentes, nous avons mis en place une politique de retour simple et sans frais.</p><p>🔄 Vous avez <strong>30 jours</strong> après la réception de votre colis pour demander un retour.<br/><br/>Les frais de retour sont entièrement <strong>pris en charge</strong> pour vous garantir une expérience d'achat sans tracas. Il vous suffit de contacter notre notre service client.</p>"
           }
         },
         "text_YexjPg": {
           "type": "text",
           "settings": {
-            "question": "Question text",
+            "question": "Le paiement sur votre site est-il sécurisé ?",
             "answer": "<p>Answer richtext</p>"
           }
         },
