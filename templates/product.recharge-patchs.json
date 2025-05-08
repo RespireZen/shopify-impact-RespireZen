@@ -411,8 +411,8 @@
         "text_CW9wgb": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Le paiement sur votre site est-il sécurisé ?",
+            "answer": "<p>Absolument. Nous accordons une attention particulière à la protection de vos informations lors de vos achats.</p><p>🔐 Nos systèmes de paiement sont équipés des dernières technologies de sécurité afin de garantir la confidentialité de vos données.</p><p>Vous pouvez donc faire vos achats en toute sérénité, avec l'assurance que vos informations personnelles et bancaires sont protégées.</p>"
           }
         },
         "text_JW96em": {
