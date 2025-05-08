@@ -542,22 +542,22 @@
         "text_rPMQGq": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Les patchs sont-ils réutilisables ?",
+            "answer": "<p>Non, les patchs adhésifs sont conçus pour une utilisation unique afin de garantir une fixation optimale et une bonne hygiène. En revanche, la bande magnétique est réutilisable indéfiniment.</p>"
           }
         },
         "text_JmpJR6": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Que faire si mes patchs n’adhèrent pas correctement sur mon nez ?",
+            "answer": "<p>Si vos patchs se décollent rapidement, cela peut être lié à la présence de sébum, de crème ou d’humidité sur la peau.</p><p><strong>Nos conseils pour une meilleure adhérence :</strong></p><ul><li>Nettoyez votre nez avec de l’eau et du savon pour éliminer les impuretés</li><li>Séchez soigneusement votre peau</li><li>Appliquez les patchs en exerçant une pression ferme pendant quelques secondes pour assurer leur fixation</li></ul>"
           }
         },
         "text_zAWM8L": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Puis-je utiliser les bandes nasales pendant le sport ?",
+            "answer": "<p>Bien sûr ! Nos bandes nasales sont aussi faites pour les activités sportives qui nécessitent une meilleure respiration. Elles permettent d’améliorer l’apport en oxygène, ce qui aide à améliorer vos performances et votre endurance.</p><p>De nombreux sportifs ont adoptés nos bandes nasales magnétiques pour améliorer leur respiration pendant des exercices d’intensité modérée à élevée.</p>"
           }
         },
         "text_jDPnR8": {
