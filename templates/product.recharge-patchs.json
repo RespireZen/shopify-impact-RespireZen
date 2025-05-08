@@ -369,8 +369,8 @@
         "text_qKBge3": {
           "type": "text",
           "settings": {
-            "question": "Do you offer free shipping?",
-            "answer": "<p>Yes, we provide free standard shipping on all orders over $100. For orders under $100, a small shipping fee applies, which will be shown at checkout.</p>"
+            "question": "Nos bandes nasales sont-elles réutilisables ?",
+            "answer": "<p>Oui, nos bandes nasales magnétiques sont conçues pour être réutilisables. Elles sont fabriquées à partir de matériaux durables et faciles à nettoyer pour garantir une bonne hygiène après chaque utilisation.</p><p>Nous vous recommandons de les nettoyer délicatement avec de l’eau tiède et du savon doux, puis de les laisser sécher à l’air libre.</p>"
           }
         },
         "text_CpV39z": {
@@ -400,8 +400,8 @@
         "hover_color": "#31a1d5",
         "question_color": "#000000",
         "background_color": "#f3f3f3",
-        "answer_color": "#000",
-        "answer_bg_color": "#fff",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
         "questions-font-size": 1
       }
     }
