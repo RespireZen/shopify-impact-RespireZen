@@ -20,16 +20,24 @@
             "text": "Livraison gratuite",
             "url": ""
           }
+        },
+        "message_pCfYyn": {
+          "type": "message",
+          "settings": {
+            "text": "Marque Française !",
+            "url": ""
+          }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_pCfYyn"
       ],
       "settings": {
         "enable_sticky": false,
-        "text_size": "text-xs",
+        "text_size": "text-xxs",
         "navigation_mode": "scrolling",
-        "scrolling_speed": 20,
+        "scrolling_speed": 25,
         "background": "#31a1d5",
         "background_gradient": "",
         "text_color": "#ffffff"
