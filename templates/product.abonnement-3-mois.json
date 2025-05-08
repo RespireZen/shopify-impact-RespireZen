@@ -20,6 +20,7 @@
         },
         "judge_me_reviews_preview_badge_iG4nyP": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
         },
         "liquid_HafjKb": {
@@ -31,7 +32,7 @@
         "kaching_bundles_app_block_MWdKHg": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "abonnement-de-2-mois-de-patchs-pour-bande-nasale-120-patchs-60-jours"
+            "product": "abonnement-de-3-mois-de-patchs-pour-bande-nasale-180-patchs-90-jours"
           }
         },
         "buy_buttons": {
