@@ -592,14 +592,14 @@
           "type": "text",
           "settings": {
             "question": "Le paiement sur votre site est-il sécurisé ?",
-            "answer": "<p>Answer richtext</p>"
+            "answer": "<p>Absolument. Nous accordons une attention particulière à la protection de vos informations lors de vos achats.</p><p>🔐 Nos systèmes de paiement sont équipés des dernières technologies de sécurité afin de garantir la confidentialité de vos données.</p><p>Vous pouvez donc faire vos achats en toute sérénité, avec l'assurance que vos informations personnelles et bancaires sont protégées.</p>"
           }
         },
         "text_kd6q4H": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Comment contacter notre service client ?",
+            "answer": "<p>Nous sommes toujours disponibles pour vous accompagner et répondre à vos questions.</p><p>Pour toute demande, vous pouvez nous écrire à l'adresse suivante : <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nos conseillers sont à votre écoute du lundi au vendredi, de 8h à 18h. Que ce soit pour une question sur nos produits, une commande en cours ou toute autre information, nous serons ravis de vous aider.</p>"
           }
         },
         "text_GL6jWm": {
