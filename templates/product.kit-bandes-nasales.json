@@ -311,30 +311,40 @@
         "text_color": ""
       }
     },
-    "rich_text_8NrBcJ": {
-      "type": "rich-text",
+    "impact_text_PTaK4c": {
+      "type": "impact-text",
       "blocks": {
-        "heading_DKLDVA": {
-          "type": "heading",
+        "item_8G3U3J": {
+          "type": "item",
           "settings": {
-            "text": "Comment choisir la bonne taille de bande nasale ?",
-            "heading_tag": "h2",
-            "text_color": "",
-            "gradient": ""
+            "title": "",
+            "subheading": "",
+            "content": "<h2><strong>Comment choisir la bonne taille de bande nasale ?</strong></h2>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
           }
         }
       },
       "block_order": [
-        "heading_DKLDVA"
+        "item_8G3U3J"
       ],
-      "name": "Rich text",
+      "name": "Impact text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "video_Vrbetp": {
@@ -479,7 +489,7 @@
     "impact_text_wKmn3q",
     "video_eGhfXE",
     "multi_column_qxYXcx",
-    "rich_text_8NrBcJ",
+    "impact_text_PTaK4c",
     "video_Vrbetp",
     "custom_liquid_JUyPdJ",
     "1746463239aa05b058",
