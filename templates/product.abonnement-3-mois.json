@@ -426,14 +426,14 @@
           "type": "text",
           "settings": {
             "question": "Comment contacter notre service client ?",
-            "answer": "<p>Nous sommes toujours disponibles pour vous accompagner et répondre à vos questions.</p><p>Pour toute demande, vous pouvez nous écrire à l'adresse suivante : <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nos conseillers sont à votre écoute du lundi au vendredi, de 8h à 18h. Que ce soit pour une question sur nos produits, une commande en cours ou toute autre information, nous serons ravis de vous aider.</p>"
+            "answer": "<p>Nous sommes toujours disponibles pour vous accompagner et répondre à vos questions.</p><p>Pour toute demande, vous pouvez nous écrire à l'adresse suivante : <a href=\"mailto:contact@respire-zen.com\" title=\"mailto:contact@respire-zen.com\">contact@respire-zen.com</a>.</p><p>Nos conseillers sont à votre écoute du lundi au vendredi, de 8h à 18h. Que ce soit pour une question sur nos produits, une commande en cours ou toute autre information, nous serons ravis de vous aider.</p>"
           }
         },
         "text_MjfMLW": {
           "type": "text",
           "settings": {
             "question": "Puis-je modifier ou annuler ma commande après l'avoir passée ?",
-            "answer": "<p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous <strong>le plus rapidement possible</strong> par e-mail à <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p>"
+            "answer": "<p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous <strong>le plus rapidement possible</strong> par e-mail à <a href=\"mailto:contact@respire-zen.com\" title=\"mailto:contact@respire-zen.com\">contact@respire-zen.com</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p>"
           }
         }
       },
