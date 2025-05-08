@@ -227,18 +227,10 @@
             "heading_tag": "h2"
           }
         },
-        "badges": {
-          "type": "badges",
-          "settings": {}
-        },
-        "variant-picker": {
-          "type": "variant_picker",
+        "text_eMfCwa": {
+          "type": "text",
           "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
+            "text": "<p>Simple à utiliser, efficace de jour comme de nuit, pour une respiration aisée en toute situation.</p>"
           }
         },
         "kaching_bundles_app_block_zhgHUd": {
@@ -246,10 +238,6 @@
           "settings": {
             "product": "{{section.settings.product}}"
           }
-        },
-        "quantity-selector": {
-          "type": "quantity_selector",
-          "settings": {}
         },
         "buy-buttons": {
           "type": "buy_buttons",
@@ -265,10 +253,8 @@
       },
       "block_order": [
         "title",
-        "badges",
-        "variant-picker",
+        "text_eMfCwa",
         "kaching_bundles_app_block_zhgHUd",
-        "quantity-selector",
         "buy-buttons"
       ],
       "settings": {
