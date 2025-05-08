@@ -486,15 +486,15 @@
         "text_L4KeAY": {
           "type": "text",
           "settings": {
-            "question": "Do you offer free shipping?",
-            "answer": "<p>Yes, we provide free standard shipping on all orders over $100. For orders under $100, a small shipping fee applies, which will be shown at checkout.</p>"
+            "question": "Comment fonctionnent les bandes nasales magnétique de Respire Zen ?",
+            "answer": "<p>Nos bandes nasales aimantées sont équipées d’un système ingénieux combinant des patchs adhésifs et une bande magnétique. Une fois les patchs fixés de chaque côté de votre nez, la bande vient s’y accrocher en exerçant une légère tension. Ce mécanisme permet d'élargir doucement les narines, facilitant ainsi la respiration nasale.</p><p>Cette amélioration du flux d’air peut avoir plusieurs bénéfices :</p><ul><li>Réduction des ronflements causés par une obstruction nasale.</li><li>Meilleure oxygénation, favorisant un sommeil plus profond.</li><li>Amélioration des performances sportives grâce à une respiration plus fluide.</li></ul>"
           }
         },
         "text_WJ87NB": {
           "type": "text",
           "settings": {
-            "question": "What is your refund policy?",
-            "answer": "<p>If you're not completely satisfied with your purchase, you can return it within 14 for a full refund. Please ensure the item is unused and in its original packaging.</p>"
+            "question": "Les bandes nasales magnétiques peuvent-elles altérer la forme de mon nez ?",
+            "answer": "<p>Pas du tout, les bandes nasales de Respire Zen ont été développée pour agir uniquement sur les tissus externes et n’exercent pas de pression suffisante pour modifier la structure nasale. Vous pouvez les utiliser quotidiennement sans aucun risque de déformation.</p>"
           }
         },
         "text_wkTAdV": {
@@ -503,12 +503,132 @@
             "question": "How can I create headshots with AI?",
             "answer": "<p>Need professional headshots quickly? <a href=\"https://headshots.so\">headshots.so</a>, <a href=\"https://headshots.dk\">headshots.dk</a>, <a href=\"https://headshots.se\">headshots.se</a>, and <a href=\"https://headshots.no\">headshots.no</a> make it easy to produce high-quality images in just a few minutes. Whether you’re updating your LinkedIn profile or website, these platforms help you get a polished look without any hassle.</p>"
           }
+        },
+        "text_QCTAiM": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_9XPxq7": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_JRk7jK": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_PXtxdN": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_pfDJpC": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_rPMQGq": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_JmpJR6": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_zAWM8L": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_jDPnR8": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_XpRyE3": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_gHCKVN": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_XyPDGP": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_YexjPg": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_kd6q4H": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_GL6jWm": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
         }
       },
       "block_order": [
         "text_L4KeAY",
         "text_WJ87NB",
-        "text_wkTAdV"
+        "text_wkTAdV",
+        "text_QCTAiM",
+        "text_9XPxq7",
+        "text_JRk7jK",
+        "text_PXtxdN",
+        "text_pfDJpC",
+        "text_rPMQGq",
+        "text_JmpJR6",
+        "text_zAWM8L",
+        "text_jDPnR8",
+        "text_XpRyE3",
+        "text_gHCKVN",
+        "text_XyPDGP",
+        "text_YexjPg",
+        "text_kd6q4H",
+        "text_GL6jWm"
       ],
       "name": "SS - FAQ #1",
       "settings": {
