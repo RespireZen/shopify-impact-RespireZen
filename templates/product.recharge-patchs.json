@@ -156,6 +156,7 @@
       "block_order": [
         "item_McFiyY"
       ],
+      "disabled": true,
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
@@ -187,6 +188,7 @@
       "block_order": [
         "item_rGYFRk"
       ],
+      "disabled": true,
       "name": "Images and text scrolling",
       "settings": {
         "full_width": true,
