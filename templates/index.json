@@ -610,15 +610,43 @@
         "text_nWj8bD": {
           "type": "text",
           "settings": {
-            "question": "Do you offer free shipping?",
-            "answer": "<p>Yes, we provide free standard shipping on all orders over $100. For orders under $100, a small shipping fee applies, which will be shown at checkout.</p>"
+            "question": "Nos bandes nasales sont-elles réutilisables ?",
+            "answer": "<p>Oui, nos bandes nasales magnétiques sont conçues pour être réutilisables. Elles sont fabriquées à partir de matériaux durables et faciles à nettoyer pour garantir une bonne hygiène après chaque utilisation.</p><p>Nous vous recommandons de les nettoyer délicatement avec de l’eau tiède et du savon doux, puis de les laisser sécher à l’air libre.</p>"
+          }
+        },
+        "text_iYjpQJ": {
+          "type": "text",
+          "settings": {
+            "question": "Puis-je utiliser les bandes nasales pendant le sport ?",
+            "answer": "<p>Bien sûr ! Nos bandes nasales sont aussi faites pour les activités sportives qui nécessitent une meilleure respiration. Elles permettent d’améliorer l’apport en oxygène, ce qui aide à améliorer vos performances et votre endurance.</p><p>De nombreux sportifs ont adoptés nos bandes nasales magnétiques pour améliorer leur respiration pendant des exercices d’intensité modérée à élevée.</p>"
           }
         },
         "text_H3wk4c": {
           "type": "text",
           "settings": {
-            "question": "What is your refund policy?",
-            "answer": "<p>If you're not completely satisfied with your purchase, you can return it within 14 for a full refund. Please ensure the item is unused and in its original packaging.</p>"
+            "question": "Combien de temps durent vos bandes nasales magnétiques ?",
+            "answer": "<p>Avec un entretien régulier, nos bandes ont été développées pour durer plusieurs années. Leur matériau robuste et leur technologie magnétique garantissent une efficacité durable.</p>"
+          }
+        },
+        "text_XWR6wR": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_cqTq4B": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
+          }
+        },
+        "text_gwjRJi": {
+          "type": "text",
+          "settings": {
+            "question": "Question text",
+            "answer": "<p>Answer richtext</p>"
           }
         },
         "text_qRLmfc": {
@@ -631,7 +659,11 @@
       },
       "block_order": [
         "text_nWj8bD",
+        "text_iYjpQJ",
         "text_H3wk4c",
+        "text_XWR6wR",
+        "text_cqTq4B",
+        "text_gwjRJi",
         "text_qRLmfc"
       ],
       "name": "SS - FAQ #1",
