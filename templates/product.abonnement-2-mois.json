@@ -1,0 +1,113 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_HafjKb": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-gif-icons\" bis_skin_checked=\"1\">\n  <div class=\"gif-grid\" bis_skin_checked=\"1\">\n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Nuit_de_sommeil_complete.gif?v=1743623612&amp;width=60\" alt=\"Nuit complète\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Nuit complète\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Mieux_respirer_pendant_le_sport_et_les_efforts.gif?v=1743623611&amp;width=60\" alt=\"Sport\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Sport\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Respiration_fluide.gif?v=1743623946&amp;width=60\" alt=\"Confortable\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Confortable\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n    \n  </div>\n</div>"
+          }
+        },
+        "judge_me_reviews_preview_badge_iG4nyP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "kaching_bundles_app_block_MWdKHg": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "kit-de-bandes-nasales-magnetiques-respire"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#67b972",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "liquid_HafjKb",
+        "judge_me_reviews_preview_badge_iG4nyP",
+        "price",
+        "kaching_bundles_app_block_MWdKHg",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
