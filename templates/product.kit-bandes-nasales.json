@@ -564,21 +564,21 @@
           "type": "text",
           "settings": {
             "question": "Combien de temps durent vos bandes nasales magnétiques ?",
-            "answer": "<p>Answer richtext</p>"
+            "answer": "<p>Avec un entretien régulier, nos bandes ont été développées pour durer plusieurs années. Leur matériau robuste et leur technologie magnétique garantissent une efficacité durable.</p>"
           }
         },
         "text_XpRyE3": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Les bandes nasales sont-elles adaptées à tous les âges ?",
+            "answer": "<p>Nos bandes ont été développées pour les adultes. Elles sont tout de même utilisables par les adolescents. Si vous souhaitez les utiliser pour une personne ayant des besoins spécifiques, nous vous conseillons de consulter un professionnel de santé pour vous assurer qu’elles conviennent parfaitement.</p>"
           }
         },
         "text_gHCKVN": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Quels sont les délais de livraison ?",
+            "answer": "<p>Nous savons à quel point il est important de recevoir votre commande rapidement et en parfait état. Votre commande est préparée et expédiée dans un délai de <strong>1 à 2 jours ouvrés</strong> après sa validation.</p><p>Ensuite, le temps de livraison standard est généralement de <strong>6 à 8 jours ouvrables</strong>.</p><p>Une fois votre colis expédié, nous vous transmettrons un <strong>numéro de suivi</strong> qui vous permettra de suivre votre livraison en temps réel.</p><p>Si vous avez des doutes ou souhaitez obtenir des précisions sur votre envoi, notre service client est à votre disposition.</p>"
           }
         },
         "text_XyPDGP": {
