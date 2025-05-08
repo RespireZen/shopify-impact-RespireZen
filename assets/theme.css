@@ -9925,3 +9925,7 @@ details[open] .impact-accordion__caret {
 .template-collection .price-list {
   display: none !important;
 }
+
+body[class*="collection"] .price-list {
+  display: none !important;
+}
