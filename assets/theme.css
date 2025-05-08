@@ -9922,3 +9922,6 @@ details[open] .impact-accordion__caret {
   font-size: 0.95rem;
   color: #444;
 }
+.template-collection .price-list {
+  display: none !important;
+}
