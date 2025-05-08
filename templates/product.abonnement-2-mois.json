@@ -1,0 +1,495 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "judge_me_reviews_preview_badge_iG4nyP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "liquid_HafjKb": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-gif-icons\" bis_skin_checked=\"1\">\n  <div class=\"gif-grid\" bis_skin_checked=\"1\">\n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Nuit_de_sommeil_complete.gif?v=1743623612&amp;width=60\" alt=\"Nuit complète\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Nuit complète\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Mieux_respirer_pendant_le_sport_et_les_efforts.gif?v=1743623611&amp;width=60\" alt=\"Sport\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Sport\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Respiration_fluide.gif?v=1743623946&amp;width=60\" alt=\"Confortable\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Confortable\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n    \n  </div>\n</div>"
+          }
+        },
+        "kaching_bundles_app_block_MWdKHg": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "abonnement-de-2-mois-de-patchs-pour-bande-nasale-120-patchs-60-jours"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#67b972",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "text_6XJB9r": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Votre abonnement est arrêtable gratuitement, à tout moment, et facilement.</p>"
+          }
+        },
+        "essential_trust_badges_app_block_M4PjGH": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "disabled": true,
+          "settings": {
+            "banner_display": "all",
+            "banner_id": "3a81b080-a3ab-4017-b430-f5117ae93d45"
+          }
+        },
+        "description_EUn66Y": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "liquid_yHjnWz": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"impact-accordion\">\n  <details class=\"impact-accordion__item\">\n    <summary class=\"impact-accordion__summary\">\n      <div class=\"impact-accordion__summary-content\">\n        <span class=\"impact-accordion__icon\">\n          <!-- Icône optionnelle -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-box\" viewBox=\"0 0 20 20\" width=\"20\" height=\"20\">\n            <path fill-rule=\"evenodd\" d=\"M9.695.679a1 1 0 0 1 .674.003l7.846 2.859a1 1 0 0 1 .658.94v9.948a1 1 0 0 1-.553.894l-7.847 3.924a1 1 0 0 1-.882.006l-8.137-3.929a1 1 0 0 1-.565-.9v-9.94a1 1 0 0 1 .668-.943zM6.08 3.01 2.535 4.257l7.614 3.378 3.42-1.517zm.706-.248L14.2 5.838l3.337-1.48-7.51-2.736zM1.89 14.424v-9.36l7.76 3.444v9.662zm15.984.005-7.224 3.612V8.508l7.224-3.205z\"></path>\n          </svg>\n        </span>\n        <h2 class=\"impact-accordion__title\">\n          Livraison gratuite (6 à 8 jours)\n        </h2>\n      </div>\n      <svg class=\"impact-accordion__caret\" viewBox=\"0 0 10 6\" width=\"10\" height=\"6\">\n        <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708\" clip-rule=\"evenodd\"/>\n      </svg>\n    </summary>\n    <div class=\"impact-accordion__content rte\">\n      <p>Respire Zen propose une livraison de votre commande entièrement gratuite. Nous expédions votre commande dans un délai de <strong>1 à 2 jours</strong>.</p>\n      <p>La livraison prend généralement entre <strong>6 à 8 jours ouvrés</strong>. Pour vous permettre de suivre votre colis en temps réel, un <strong>numéro de suivi</strong> vous sera fourni.</p>\n    </div>\n  </details>\n</div>"
+          }
+        },
+        "liquid_QykFky": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"impact-accordion\">\n  <details class=\"impact-accordion__item\">\n    <summary class=\"impact-accordion__summary\">\n      <div class=\"impact-accordion__summary-content\">\n        <span class=\"impact-accordion__icon\">\n          <!-- Icône retour du thème Dawn -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-return\" viewBox=\"0 0 20 20\" width=\"20\" height=\"20\">\n            <path d=\"M11.571 1.059c0-.309.249-.559.556-.559h1.33C17.07.5 20 3.453 20 7.09s-2.93 6.589-6.543 6.589L1.9 13.71l-.591-.59.59-.572 11.558.013c2.997 0 5.432-2.451 5.432-5.472 0-3.02-2.435-5.471-5.432-5.471h-1.33a.557.557 0 0 1-.556-.56\"></path>\n            <path d=\"M6.003 7.007a.553.553 0 0 1 .786.011.56.56 0 0 1-.012.79zM1.31 13.12l5.43 5.426a.56.56 0 0 1 0 .79.553.553 0 0 1-.785 0L.162 13.503a.56.56 0 0 1 .007-.796l3.035-2.965 2.8-2.735.773.801-2.798 2.736c-1.025 1-2.108 2.027-2.67 2.576\"></path>\n          </svg>\n        </span>\n        <h2 class=\"impact-accordion__title\">\n          Profitez d'un droit de retour de 30 jours\n        </h2>\n      </div>\n      <svg class=\"impact-accordion__caret\" viewBox=\"0 0 10 6\" width=\"10\" height=\"6\">\n        <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708\" clip-rule=\"evenodd\"/>\n      </svg>\n    </summary>\n    <div class=\"impact-accordion__content rte\">\n      <p>Vous bénéficiez d'un droit de retour gratuit de 30 jours à compter de la réception de votre commande.</p>\n    </div>\n  </details>\n</div>"
+          }
+        },
+        "liquid_kWXmcx": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"impact-accordion\">\n  <details class=\"impact-accordion__item\">\n    <summary class=\"impact-accordion__summary\">\n      <div class=\"impact-accordion__summary-content\">\n        <span class=\"impact-accordion__icon\">\n          <!-- Icône cadenas style Dawn -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-lock\" viewBox=\"0 0 20 20\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\">\n            <path d=\"M5 9V6a5 5 0 0 1 10 0v3\" />\n            <rect x=\"3\" y=\"9\" width=\"14\" height=\"10\" rx=\"2\" ry=\"2\" />\n          </svg>\n        </span>\n        <h2 class=\"impact-accordion__title\">\n          Moyens de paiement sécurisés\n        </h2>\n      </div>\n      <svg class=\"impact-accordion__caret\" viewBox=\"0 0 10 6\" width=\"10\" height=\"6\">\n        <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708\" clip-rule=\"evenodd\"/>\n      </svg>\n    </summary>\n    <div class=\"impact-accordion__content rte\">\n      <p>Nous passons uniquement par des solutions de paiement sécurisées pour que vous puissiez effectuer vos achats en toute confiance. Vous pouvez régler par carte bancaire ou via Apple Pay.</p>\n    </div>\n  </details>\n</div>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "judge_me_reviews_preview_badge_iG4nyP",
+        "liquid_HafjKb",
+        "kaching_bundles_app_block_MWdKHg",
+        "buy_buttons",
+        "text_6XJB9r",
+        "essential_trust_badges_app_block_M4PjGH",
+        "description_EUn66Y",
+        "liquid_yHjnWz",
+        "liquid_QykFky",
+        "liquid_kWXmcx"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 40,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 2,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_rGDr8G": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_4Nh3wY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Notre <strong>kit de bandes nasales magnétiques Respire Zen</strong> a été développé pour améliorer votre respiration nasale et favoriser un sommeil réparateur. Grâce à sa technologie magnétique innovante, elles ouvrent délicatement les voies nasales pour faciliter le passage de l'air.</p><p>Respire Zen vous change la vie si vous souffrez :</p><ul><li>de congestion nasale</li><li>d’apnée du sommeil modérée</li><li>de cloison nasale déviée</li><li>de ronflements</li><li>d'allergies</li></ul><p>Les bandes nasales magnétiques Respire Zen vous aident à mieux respirer pour profiter d'un sommeil plus profond et paisible, et à améliorer vos performances sportives.</p><p>Notre kit est fournit avec 30 patchs, correspondant à 15 jours d’utilisation. Nous proposons des <a href=\"https://inflow-shop.com/products/recharges-de-patchs-pour-bandes-nasales-magnetiques\">recharges de patchs pour bandes nasales</a>, donc pas besoin de racheter de kit !</p><p>Vous pouvez économiser en souscrivant à l’un de nos <a href=\"https://inflow-shop.com/collections/abonnements-de-recharges-de-patchs\">abonnements pour recevoir vos patchs</a> directement chez vous tous les 2 ou 3 mois.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_4Nh3wY"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_JKVNJy": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_McFiyY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Des_nuits_plus_reposantes_pour_un_reveil_plein_d_energie.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Des nuits calmes pour une meilleure récupération nocturne",
+            "content": "<p>Dites adieu aux nuits agitées qui deviendront des moments de régénération. Un sommeil de qualité favorise la réparation cellulaire et apaise le système nerveux. En améliorant votre respiration, vous plongez dans un sommeil profond et réparateur qui réduit les interruptions nocturnes. Vous pourrez enfin vous levez avec entrain et motivation.</p><h2>Une bouche en meilleure santé</h2><p>Un bon sommeil contribue indirectement à votre santé bucco-dentaire en limitant la sécheresse buccale et en renforçant votre système immunitaire.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_McFiyY"
+      ],
+      "disabled": true,
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "images_with_text_scrolling_phXggA": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_rGYFRk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Femme_faisant_de_la_randonnee_avec_des_bandes_nasales_magnetiques.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Améliorez votre capacité respiratoire et votre fréquence cardiaque",
+            "content": "<p>Les bandes nasales de Respire Zen améliorent votre capacité de concentration et renforcent votre endurance pour rester performant et productif toute la journée. Elles favorisent une meilleure régénération musculaire et mentale pour conserver votre énergie et votre vitalité, même après des journées intenses.</p><p>Avec Respire Zen, maintenez un rythme cardiaque équilibré pour améliorer votre confort lors de vos efforts physiques et activités quotidiennes. Vous optimiserez un meilleur apport d’oxygène vers vos muscles et votre cerveau. Cela permet d’atteindre de meilleures performances physiques et mentales en augmentant votre endurance et votre concentration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_rGYFRk"
+      ],
+      "disabled": true,
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "impact_text_wKmn3q": {
+      "type": "impact-text",
+      "blocks": {
+        "item_3w7Pyc": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "content": "<h2>Comment appliquer les patchs de bandes nasales Respire Zen ?</h2>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_3w7Pyc"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "video_eGhfXE": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Comment appliquer nos patchs de bandes magnétiques.webm",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_qxYXcx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CpmHeq": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 1 : Nettoyage de votre nez",
+            "heading_tag": "h4",
+            "content": "<p>Avant d'appliquer votre bande nasale magnétique, assurez-vous que votre peau est propre et sèche. Utilisez de l’eau et du savon ou une lingette antiseptique pour éliminer les impuretés et garantir une meilleure adhésion.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cTahRG": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 2 : Pose des points de fixation",
+            "heading_tag": "h4",
+            "content": "<p>Munissez-vous de l’applicateur magnétique pour positionner précisément les languettes adhésives de chaque côté de votre nez. Exercez une légère pression pour qu'elles adhèrent correctement.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_bwJkny": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 3 : Installation de la bande nasale magnétique",
+            "heading_tag": "h4",
+            "content": "<p>Placez la bande magnétique sur votre nez. Grâce à son système d'aimants puissant, elle agira naturellement pour élargir vos voies respiratoires et améliorer votre flux d'air.</p><p>✅ <strong>Inspirez profondément... et sentez immédiatement la différence avec Respire Zen</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CpmHeq",
+        "item_cTahRG",
+        "item_bwJkny"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_JUyPdJ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1746463239aa05b058": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_Fhd6mw": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_Fhd6mw"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "media_with_text_zjjTRh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_pNeVX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Rechargesdepatchspourbandesnasales.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Continuez à bien respirer avec nos recharges de patchs",
+            "content": "<p>Assurez-vous de ne jamais manquer de patchs pour bandes nasales magnétiques grâce à nos <strong>recharges de patchs</strong>.</p><p>Pas besoin de recommander un nouveau kit, vous avez juste à choisir la quantité de patchs désirée. Plus vous achetez, plus vous économisez !</p>",
+            "link_text": "Respirez sans interruption",
+            "link_url": "shopify://products/recharges-de-patchs-pour-bandes-nasales-magnetiques",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#31a1d5",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pNeVX3"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "ss_simple_faq_DAmQHD": {
+      "type": "ss-simple-faq",
+      "blocks": {
+        "text_qKBge3": {
+          "type": "text",
+          "settings": {
+            "question": "Nos bandes nasales sont-elles réutilisables ?",
+            "answer": "<p>Oui, nos bandes nasales magnétiques sont conçues pour être réutilisables. Elles sont fabriquées à partir de matériaux durables et faciles à nettoyer pour garantir une bonne hygiène après chaque utilisation.</p><p>Nous vous recommandons de les nettoyer délicatement avec de l’eau tiède et du savon doux, puis de les laisser sécher à l’air libre.</p>"
+          }
+        },
+        "text_CpV39z": {
+          "type": "text",
+          "settings": {
+            "question": "Puis-je utiliser les bandes nasales pendant le sport ?",
+            "answer": "<p>Bien sûr ! Nos bandes nasales sont aussi faites pour les activités sportives qui nécessitent une meilleure respiration. Elles permettent d’améliorer l’apport en oxygène, ce qui aide à améliorer vos performances et votre endurance.</p><p>De nombreux sportifs ont adoptés nos bandes nasales magnétiques pour améliorer leur respiration pendant des exercices d’intensité modérée à élevée.</p>"
+          }
+        },
+        "text_XKLWMQ": {
+          "type": "text",
+          "settings": {
+            "question": "Combien de temps durent vos bandes nasales magnétiques ?",
+            "answer": "<p>Avec un entretien régulier, nos bandes ont été développées pour durer plusieurs années. Leur matériau robuste et leur technologie magnétique garantissent une efficacité durable.</p>"
+          }
+        },
+        "text_rTMwjH": {
+          "type": "text",
+          "settings": {
+            "question": "Les bandes nasales sont-elles adaptées à tous les âges ?",
+            "answer": "<p>Nos bandes ont été développées pour les adultes. Elles sont tout de même utilisables par les adolescents. Si vous souhaitez les utiliser pour une personne ayant des besoins spécifiques, nous vous conseillons de consulter un professionnel de santé pour vous assurer qu’elles conviennent parfaitement.</p>"
+          }
+        },
+        "text_PkFPpM": {
+          "type": "text",
+          "settings": {
+            "question": "Quels sont les délais de livraison ?",
+            "answer": "<p>Nous savons à quel point il est important de recevoir votre commande rapidement et en parfait état. Votre commande est préparée et expédiée dans un délai de <strong>1 à 2 jours ouvrés</strong> après sa validation.</p><p>Ensuite, le temps de livraison standard est généralement de <strong>6 à 8 jours ouvrables</strong>.</p><p>Une fois votre colis expédié, nous vous transmettrons un <strong>numéro de suivi</strong> qui vous permettra de suivre votre livraison en temps réel.</p><p>Si vous avez des doutes ou souhaitez obtenir des précisions sur votre envoi, notre service client est à votre disposition.</p>"
+          }
+        },
+        "text_FJ7zih": {
+          "type": "text",
+          "settings": {
+            "question": "Quelle est notre politique de retour ?",
+            "answer": "<p>Votre satisfaction est notre priorité. Si votre achat ne répond pas à vos attentes, nous avons mis en place une politique de retour simple et sans frais.</p><p>🔄 Vous avez <strong>30 jours</strong> après la réception de votre colis pour demander un retour.<br/><br/>Les frais de retour sont entièrement <strong>pris en charge</strong> pour vous garantir une expérience d'achat sans tracas. Il vous suffit de contacter notre notre service client.</p>"
+          }
+        },
+        "text_CW9wgb": {
+          "type": "text",
+          "settings": {
+            "question": "Le paiement sur votre site est-il sécurisé ?",
+            "answer": "<p>Absolument. Nous accordons une attention particulière à la protection de vos informations lors de vos achats.</p><p>🔐 Nos systèmes de paiement sont équipés des dernières technologies de sécurité afin de garantir la confidentialité de vos données.</p><p>Vous pouvez donc faire vos achats en toute sérénité, avec l'assurance que vos informations personnelles et bancaires sont protégées.</p>"
+          }
+        },
+        "text_JW96em": {
+          "type": "text",
+          "settings": {
+            "question": "Comment contacter notre service client ?",
+            "answer": "<p>Nous sommes toujours disponibles pour vous accompagner et répondre à vos questions.</p><p>Pour toute demande, vous pouvez nous écrire à l'adresse suivante : <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nos conseillers sont à votre écoute du lundi au vendredi, de 8h à 18h. Que ce soit pour une question sur nos produits, une commande en cours ou toute autre information, nous serons ravis de vous aider.</p>"
+          }
+        },
+        "text_MjfMLW": {
+          "type": "text",
+          "settings": {
+            "question": "Puis-je modifier ou annuler ma commande après l'avoir passée ?",
+            "answer": "<p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous <strong>le plus rapidement possible</strong> par e-mail à <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qKBge3",
+        "text_CpV39z",
+        "text_XKLWMQ",
+        "text_rTMwjH",
+        "text_PkFPpM",
+        "text_FJ7zih",
+        "text_CW9wgb",
+        "text_JW96em",
+        "text_MjfMLW"
+      ],
+      "name": "SS - FAQ #1",
+      "settings": {
+        "heading": "FAQ de Respire Zen",
+        "icon_color": "#31a1d5",
+        "hover_color": "#31a1d5",
+        "question_color": "#000000",
+        "background_color": "#f3f3f3",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_rGDr8G",
+    "images_with_text_scrolling_JKVNJy",
+    "images_with_text_scrolling_phXggA",
+    "impact_text_wKmn3q",
+    "video_eGhfXE",
+    "multi_column_qxYXcx",
+    "custom_liquid_JUyPdJ",
+    "1746463239aa05b058",
+    "media_with_text_zjjTRh",
+    "ss_simple_faq_DAmQHD"
+  ]
+}
