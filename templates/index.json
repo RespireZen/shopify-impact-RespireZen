@@ -210,6 +210,14 @@
         "spacer_color": "#f8f9fb"
       }
     },
+    "espacement_nApmgF": {
+      "type": "espacement",
+      "name": "Espacement",
+      "settings": {
+        "spacer_height": "20px",
+        "spacer_color": "#e9f0f7"
+      }
+    },
     "featured-product": {
       "type": "featured-product",
       "blocks": {
@@ -1088,6 +1096,7 @@
     "espacement_9zqked",
     "colonnes_avec_texte_bPWRia",
     "espacement_h6B9QH",
+    "espacement_nApmgF",
     "featured-product",
     "impact_text_dFhEKT",
     "impact_text_dUMFrB",
