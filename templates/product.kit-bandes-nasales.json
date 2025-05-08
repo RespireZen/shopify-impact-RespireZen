@@ -606,7 +606,7 @@
           "type": "text",
           "settings": {
             "question": "Puis-je modifier ou annuler ma commande après l'avoir passée ?",
-            "answer": "<p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous <strong>le plus rapidement possible</strong> par e-mail à <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p>"
+            "answer": "<p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous <strong>le plus rapidement possible</strong> par e-mail à <a href=\"mailto:contact@respire-zen.com\" title=\"mailto:contact@respire-zen.com\">contact@respire-zen.com</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p>"
           }
         }
       },
