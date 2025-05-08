@@ -327,6 +327,41 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "media_with_text_zjjTRh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_pNeVX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Economie_avec_nos_abonnements.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Économisez grâce à nos abonnements",
+            "content": "<p>Ne vous souciez plus d'avoir à passer commande à chaque fois pour vos patchs ! Avec notre formule d’abonnement, recevez vos recharges de patchs pour bandes nasales directement chez vous tous les 2 ou 3 mois ! En souscrivant à un abonnement, vous économisez entre 20 et 30% en profitant de nos meilleures offres.</p>",
+            "link_text": "Voir nos abonnements",
+            "link_url": "shopify://collections/abonnements-de-recharges-de-patchs",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "#31a1d5",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pNeVX3"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
     }
   },
   "order": [
@@ -338,6 +373,7 @@
     "video_eGhfXE",
     "multi_column_qxYXcx",
     "custom_liquid_JUyPdJ",
-    "1746463239aa05b058"
+    "1746463239aa05b058",
+    "media_with_text_zjjTRh"
   ]
 }
