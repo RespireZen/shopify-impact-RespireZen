@@ -31,7 +31,7 @@
         "kaching_bundles_app_block_MWdKHg": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "product": "kit-de-bandes-nasales-magnetiques-respire"
+            "product": "recharges-de-30-patchs-15-jours-pour-bandes-nasales-magnetiques"
           }
         },
         "buy_buttons": {
@@ -43,12 +43,6 @@
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "",
             "payment_button_text_color": ""
-          }
-        },
-        "reeltok_reeltok_zLUKMV": {
-          "type": "shopify://apps/reeltok/blocks/reeltok/8784b261-6996-4cf0-aabf-41391f5e7ec1",
-          "settings": {
-            "journey_uuid": "a159264b-7478-4fa9-ad91-6054297c0c1a"
           }
         },
         "essential_trust_badges_app_block_M4PjGH": {
@@ -72,7 +66,6 @@
         "liquid_HafjKb",
         "kaching_bundles_app_block_MWdKHg",
         "buy_buttons",
-        "reeltok_reeltok_zLUKMV",
         "essential_trust_badges_app_block_M4PjGH",
         "description_EUn66Y"
       ],
