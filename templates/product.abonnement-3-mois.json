@@ -116,92 +116,74 @@
         "input_text_color": ""
       }
     },
-    "rich_text_rGDr8G": {
-      "type": "rich-text",
+    "media_with_text_8FiBVc": {
+      "type": "media-with-text",
       "blocks": {
-        "richtext_4Nh3wY": {
-          "type": "richtext",
+        "image_Apzmtk": {
+          "type": "image",
           "settings": {
-            "content": "<p>Notre <strong>kit de bandes nasales magnétiques Respire Zen</strong> a été développé pour améliorer votre respiration nasale et favoriser un sommeil réparateur. Grâce à sa technologie magnétique innovante, elles ouvrent délicatement les voies nasales pour faciliter le passage de l'air.</p><p>Respire Zen vous change la vie si vous souffrez :</p><ul><li>de congestion nasale</li><li>d’apnée du sommeil modérée</li><li>de cloison nasale déviée</li><li>de ronflements</li><li>d'allergies</li></ul><p>Les bandes nasales magnétiques Respire Zen vous aident à mieux respirer pour profiter d'un sommeil plus profond et paisible, et à améliorer vos performances sportives.</p><p>Notre kit est fournit avec 30 patchs, correspondant à 15 jours d’utilisation. Nous proposons des <a href=\"https://inflow-shop.com/products/recharges-de-patchs-pour-bandes-nasales-magnetiques\">recharges de patchs pour bandes nasales</a>, donc pas besoin de racheter de kit !</p><p>Vous pouvez économiser en souscrivant à l’un de nos <a href=\"https://inflow-shop.com/collections/abonnements-de-recharges-de-patchs\">abonnements pour recevoir vos patchs</a> directement chez vous tous les 2 ou 3 mois.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_4Nh3wY"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "large",
-        "text_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "images_with_text_scrolling_JKVNJy": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_McFiyY": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Des_nuits_plus_reposantes_pour_un_reveil_plein_d_energie.webp",
+            "image": "shopify://shop_images/Calendrier_d_abonnement.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
-            "title": "Des nuits calmes pour une meilleure récupération nocturne",
-            "content": "<p>Dites adieu aux nuits agitées qui deviendront des moments de régénération. Un sommeil de qualité favorise la réparation cellulaire et apaise le système nerveux. En améliorant votre respiration, vous plongez dans un sommeil profond et réparateur qui réduit les interruptions nocturnes. Vous pourrez enfin vous levez avec entrain et motivation.</p><h2>Une bouche en meilleure santé</h2><p>Un bon sommeil contribue indirectement à votre santé bucco-dentaire en limitant la sécheresse buccale et en renforçant votre système immunitaire.</p>"
+            "subheading": "",
+            "title": "Ne manquez plus de souffle avec nos abonnements",
+            "content": "<p>Avec le travail, les tâches domestiques et la vie de famille, on sait à quel point on peut manquer de temps pour soi. Gérer les petits soucis du quotidien devient une source de stress supplémentaire.</p><p>C'est pour réduire les problèmes que Respire Zen vous propose des abonnements aux patchs. Fini les oublis et les ruptures de stock ! Avec ce service pratique, vous recevez 2 à 3 mois <strong>patchs</strong> directement chez vous tous les 2 ou 3 mois selon votre préférence.</p><p>Plus besoin d'y penser ! Vous gagnez du temps et de la sérénité pour vous concentrer pleinement sur vos vie et votre nouvelle routine bien-être.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "item_McFiyY"
+        "image_Apzmtk"
       ],
-      "disabled": true,
-      "name": "Images and text scrolling",
+      "name": "Media with text",
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "start",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "full_width": false,
+        "spacing": "small"
       }
     },
-    "images_with_text_scrolling_phXggA": {
-      "type": "images-with-text-scrolling",
+    "media_with_text_zR4P9P": {
+      "type": "media-with-text",
       "blocks": {
-        "item_rGYFRk": {
-          "type": "item",
+        "image_daUYbV": {
+          "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Femme_faisant_de_la_randonnee_avec_des_bandes_nasales_magnetiques.webp",
+            "image": "shopify://shop_images/Femme_qui_se_reveille_en_pleine_forme_avec_une_bande_nasale.webp",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
-            "title": "Améliorez votre capacité respiratoire et votre fréquence cardiaque",
-            "content": "<p>Les bandes nasales de Respire Zen améliorent votre capacité de concentration et renforcent votre endurance pour rester performant et productif toute la journée. Elles favorisent une meilleure régénération musculaire et mentale pour conserver votre énergie et votre vitalité, même après des journées intenses.</p><p>Avec Respire Zen, maintenez un rythme cardiaque équilibré pour améliorer votre confort lors de vos efforts physiques et activités quotidiennes. Vous optimiserez un meilleur apport d’oxygène vers vos muscles et votre cerveau. Cela permet d’atteindre de meilleures performances physiques et mentales en augmentant votre endurance et votre concentration.</p>"
+            "subheading": "",
+            "title": "Un abonnement flexible et sans contrainte",
+            "content": "<p>Profitez d’un abonnement de 2 ou 3 mois simple et sans engagement pour prendre soin de vous facilement. Avec nos abonnements de patchs flexibles, vous êtes libre de le suspendre ou de l’arrêter à tout moment, sans aucun frais.</p><p><strong>Gérez facilement votre abonnement en quelques clics depuis votre espace client.</strong></p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "item_rGYFRk"
+        "image_daUYbV"
       ],
-      "disabled": true,
-      "name": "Images and text scrolling",
+      "name": "Media with text",
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": false,
-        "desktop_image_effect": "reveal",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
+        "full_width": false,
+        "spacing": "small"
       }
     },
     "impact_text_wKmn3q": {
@@ -481,9 +463,8 @@
   },
   "order": [
     "main",
-    "rich_text_rGDr8G",
-    "images_with_text_scrolling_JKVNJy",
-    "images_with_text_scrolling_phXggA",
+    "media_with_text_8FiBVc",
+    "media_with_text_zR4P9P",
     "impact_text_wKmn3q",
     "video_eGhfXE",
     "multi_column_qxYXcx",
