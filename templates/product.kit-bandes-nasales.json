@@ -521,15 +521,15 @@
         "text_JRk7jK": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Les bandes nasales peuvent-elles aider à améliorer la concentration pendant la journée ?",
+            "answer": "<p>Oui, en améliorant la respiration nasale, les bandes favorisent une meilleure oxygénation du cerveau. Cela peut améliorer votre vigilance, votre concentration et votre clarté mentale, notamment lors d’activités nécessitant une grande attention.</p>"
           }
         },
         "text_PXtxdN": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Les bandes nasales sont-elles adaptées en cas de septum dévié ?",
+            "answer": "<p>Bien que les bandes ne puissent pas corriger un septum dévié, elles peuvent aider à améliorer la respiration en élargissant les voies nasales du côté le moins obstrué.</p>"
           }
         },
         "text_pfDJpC": {
