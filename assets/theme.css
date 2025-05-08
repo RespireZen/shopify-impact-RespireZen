@@ -9878,3 +9878,47 @@ split-lines {
   display: -webkit-box;
   overflow: hidden;
 }
+.impact-accordion__item {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0;
+}
+
+.impact-accordion__summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+}
+
+.impact-accordion__summary-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.impact-accordion__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.impact-accordion__icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.impact-accordion__caret {
+  transition: transform 0.3s ease;
+}
+
+details[open] .impact-accordion__caret {
+  transform: rotate(180deg);
+}
+
+.impact-accordion__content {
+  margin-top: 10px;
+  padding-left: 28px;
+  font-size: 0.95rem;
+  color: #444;
+}
