@@ -1,0 +1,343 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "judge_me_reviews_preview_badge_iG4nyP": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "liquid_HafjKb": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"product-gif-icons\" bis_skin_checked=\"1\">\n  <div class=\"gif-grid\" bis_skin_checked=\"1\">\n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Nuit_de_sommeil_complete.gif?v=1743623612&amp;width=60\" alt=\"Nuit complète\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Nuit complète\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Mieux_respirer_pendant_le_sport_et_les_efforts.gif?v=1743623611&amp;width=60\" alt=\"Sport\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Sport\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n        <div class=\"gif-item\" bis_skin_checked=\"1\">\n          <img src=\"//respire-zen.fr/cdn/shop/files/Respiration_fluide.gif?v=1743623946&amp;width=60\" alt=\"Confortable\" width=\"60\" height=\"60\" loading=\"lazy\">\n          <div class=\"gif-label\" style=\"background-color: #32a1d5;\n                   color: #ffffff;\n                   margin-top: 4px;\n                   padding: 2px 6px;\n                   border-radius: 6px;\n                   font-size: 12px;\" bis_skin_checked=\"1\">\n            Confortable\n          </div>\n        </div>\n      \n    \n      \n      \n      \n      \n      \n    \n  </div>\n</div>"
+          }
+        },
+        "kaching_bundles_app_block_MWdKHg": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
+          "settings": {
+            "product": "kit-de-bandes-nasales-magnetiques-respire"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#67b972",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "reeltok_reeltok_zLUKMV": {
+          "type": "shopify://apps/reeltok/blocks/reeltok/8784b261-6996-4cf0-aabf-41391f5e7ec1",
+          "settings": {
+            "journey_uuid": "a159264b-7478-4fa9-ad91-6054297c0c1a"
+          }
+        },
+        "essential_trust_badges_app_block_M4PjGH": {
+          "type": "shopify://apps/essential-trust-badges/blocks/app-block/0ff65b25-07e1-408e-950f-f54dd3d1751b",
+          "disabled": true,
+          "settings": {
+            "banner_display": "all",
+            "banner_id": "3a81b080-a3ab-4017-b430-f5117ae93d45"
+          }
+        },
+        "description_EUn66Y": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "judge_me_reviews_preview_badge_iG4nyP",
+        "liquid_HafjKb",
+        "kaching_bundles_app_block_MWdKHg",
+        "buy_buttons",
+        "reeltok_reeltok_zLUKMV",
+        "essential_trust_badges_app_block_M4PjGH",
+        "description_EUn66Y"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 40,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 2,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
+    "rich_text_rGDr8G": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_4Nh3wY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Notre <strong>kit de bandes nasales magnétiques Respire Zen</strong> a été développé pour améliorer votre respiration nasale et favoriser un sommeil réparateur. Grâce à sa technologie magnétique innovante, elles ouvrent délicatement les voies nasales pour faciliter le passage de l'air.</p><p>Respire Zen vous change la vie si vous souffrez :</p><ul><li>de congestion nasale</li><li>d’apnée du sommeil modérée</li><li>de cloison nasale déviée</li><li>de ronflements</li><li>d'allergies</li></ul><p>Les bandes nasales magnétiques Respire Zen vous aident à mieux respirer pour profiter d'un sommeil plus profond et paisible, et à améliorer vos performances sportives.</p><p>Notre kit est fournit avec 30 patchs, correspondant à 15 jours d’utilisation. Nous proposons des <a href=\"https://inflow-shop.com/products/recharges-de-patchs-pour-bandes-nasales-magnetiques\">recharges de patchs pour bandes nasales</a>, donc pas besoin de racheter de kit !</p><p>Vous pouvez économiser en souscrivant à l’un de nos <a href=\"https://inflow-shop.com/collections/abonnements-de-recharges-de-patchs\">abonnements pour recevoir vos patchs</a> directement chez vous tous les 2 ou 3 mois.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_4Nh3wY"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_JKVNJy": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_McFiyY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Des_nuits_plus_reposantes_pour_un_reveil_plein_d_energie.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Des nuits calmes pour une meilleure récupération nocturne",
+            "content": "<p>Dites adieu aux nuits agitées qui deviendront des moments de régénération. Un sommeil de qualité favorise la réparation cellulaire et apaise le système nerveux. En améliorant votre respiration, vous plongez dans un sommeil profond et réparateur qui réduit les interruptions nocturnes. Vous pourrez enfin vous levez avec entrain et motivation.</p><h2>Une bouche en meilleure santé</h2><p>Un bon sommeil contribue indirectement à votre santé bucco-dentaire en limitant la sécheresse buccale et en renforçant votre système immunitaire.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_McFiyY"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "images_with_text_scrolling_phXggA": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_rGYFRk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Femme_faisant_de_la_randonnee_avec_des_bandes_nasales_magnetiques.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Améliorez votre capacité respiratoire et votre fréquence cardiaque",
+            "content": "<p>Les bandes nasales de Respire Zen améliorent votre capacité de concentration et renforcent votre endurance pour rester performant et productif toute la journée. Elles favorisent une meilleure régénération musculaire et mentale pour conserver votre énergie et votre vitalité, même après des journées intenses.</p><p>Avec Respire Zen, maintenez un rythme cardiaque équilibré pour améliorer votre confort lors de vos efforts physiques et activités quotidiennes. Vous optimiserez un meilleur apport d’oxygène vers vos muscles et votre cerveau. Cela permet d’atteindre de meilleures performances physiques et mentales en augmentant votre endurance et votre concentration.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_rGYFRk"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": false,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "impact_text_wKmn3q": {
+      "type": "impact-text",
+      "blocks": {
+        "item_3w7Pyc": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "subheading": "",
+            "content": "<h2>Comment appliquer les patchs de bandes nasales Respire Zen ?</h2>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_3w7Pyc"
+      ],
+      "name": "Impact text",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "video_eGhfXE": {
+      "type": "video",
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/Comment appliquer nos patchs de bandes magnétiques.webm",
+        "external_video_url": "",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "multi_column_qxYXcx": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CpmHeq": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 1 : Nettoyage de votre nez",
+            "heading_tag": "h4",
+            "content": "<p>Avant d'appliquer votre bande nasale magnétique, assurez-vous que votre peau est propre et sèche. Utilisez de l’eau et du savon ou une lingette antiseptique pour éliminer les impuretés et garantir une meilleure adhésion.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cTahRG": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 2 : Pose des points de fixation",
+            "heading_tag": "h4",
+            "content": "<p>Munissez-vous de l’applicateur magnétique pour positionner précisément les languettes adhésives de chaque côté de votre nez. Exercez une légère pression pour qu'elles adhèrent correctement.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_bwJkny": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Étape 3 : Installation de la bande nasale magnétique",
+            "heading_tag": "h4",
+            "content": "<p>Placez la bande magnétique sur votre nez. Grâce à son système d'aimants puissant, elle agira naturellement pour élargir vos voies respiratoires et améliorer votre flux d'air.</p><p>✅ <strong>Inspirez profondément... et sentez immédiatement la différence avec Respire Zen</strong></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CpmHeq",
+        "item_cTahRG",
+        "item_bwJkny"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_JUyPdJ": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "1746463239aa05b058": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_Fhd6mw": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_Fhd6mw"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_rGDr8G",
+    "images_with_text_scrolling_JKVNJy",
+    "images_with_text_scrolling_phXggA",
+    "impact_text_wKmn3q",
+    "video_eGhfXE",
+    "multi_column_qxYXcx",
+    "custom_liquid_JUyPdJ",
+    "1746463239aa05b058"
+  ]
+}
