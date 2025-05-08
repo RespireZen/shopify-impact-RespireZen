@@ -363,70 +363,46 @@
         "spacing": "small"
       }
     },
-    "faq_3yFN4Y": {
-      "type": "faq",
+    "ss_simple_faq_DAmQHD": {
+      "type": "ss-simple-faq",
       "blocks": {
-        "item_dhxNNf": {
-          "type": "item",
+        "text_qKBge3": {
+          "type": "text",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "question": "Do you offer free shipping?",
+            "answer": "<p>Yes, we provide free standard shipping on all orders over $100. For orders under $100, a small shipping fee applies, which will be shown at checkout.</p>"
           }
         },
-        "item_qMBU3M": {
-          "type": "item",
+        "text_CpV39z": {
+          "type": "text",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "question": "What is your refund policy?",
+            "answer": "<p>If you're not completely satisfied with your purchase, you can return it within 14 for a full refund. Please ensure the item is unused and in its original packaging.</p>"
           }
         },
-        "item_RK8AYD": {
-          "type": "item",
+        "text_XKLWMQ": {
+          "type": "text",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "question": "How can I create headshots with AI?",
+            "answer": "<p>Need professional headshots quickly? <a href=\"https://headshots.so\">headshots.so</a>, <a href=\"https://headshots.dk\">headshots.dk</a>, <a href=\"https://headshots.se\">headshots.se</a>, and <a href=\"https://headshots.no\">headshots.no</a> make it easy to produce high-quality images in just a few minutes. Whether you’re updating your LinkedIn profile or website, these platforms help you get a polished look without any hassle.</p>"
           }
         }
       },
       "block_order": [
-        "item_dhxNNf",
-        "item_qMBU3M",
-        "item_RK8AYD"
+        "text_qKBge3",
+        "text_CpV39z",
+        "text_XKLWMQ"
       ],
-      "name": "FAQ",
+      "name": "SS - FAQ #1",
       "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ de Respire Zen",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
-    "custom_liquid_BJBY4R": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div id=\"shopify-section-template--24768042500433__ss_simple_faq_FBX4Pb\" class=\"shopify-section\" bis_skin_checked=\"1\"><div class=\"rb-faq-shopify-section\" bis_skin_checked=\"1\">\n    <h1 style=\"text-align: center; padding: 20px 20px 0px 20px;\"> FAQ de Respire Zen </h1>\n    <div class=\"rb-faq-container\" bis_skin_checked=\"1\">\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab1\" class=\"tab-toggle\">\n            <label for=\"tab1\" class=\"rb-faq-question\">Nos bandes nasales sont-elles réutilisables ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Oui, nos bandes nasales magnétiques sont conçues pour être réutilisables. Elles sont fabriquées à partir de matériaux durables et faciles à nettoyer pour garantir une bonne hygiène après chaque utilisation.</p><p>Nous vous recommandons de les nettoyer délicatement avec de l’eau tiède et du savon doux, puis de les laisser sécher à l’air libre.</p></div>\n        </div>\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab2\" class=\"tab-toggle\">\n            <label for=\"tab2\" class=\"rb-faq-question\">Puis-je utiliser les bandes nasales pendant le sport ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Bien sûr ! Nos bandes nasales sont aussi faites pour les activités sportives qui nécessitent une meilleure respiration. Elles permettent d’améliorer l’apport en oxygène, ce qui aide à améliorer vos performances et votre endurance.</p><p>De nombreux sportifs ont adoptés nos bandes nasales magnétiques pour améliorer leur respiration pendant des exercices d’intensité modérée à élevée.</p></div>\n        </div>\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab3\" class=\"tab-toggle\">\n            <label for=\"tab3\" class=\"rb-faq-question\">Combien de temps durent vos bandes nasales magnétiques ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Avec un entretien régulier, nos bandes ont été développées pour durer plusieurs années. Leur matériau robuste et leur technologie magnétique garantissent une efficacité durable.</p></div>\n        </div>\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab4\" class=\"tab-toggle\">\n            <label for=\"tab4\" class=\"rb-faq-question\">Les bandes nasales sont-elles adaptées à tous les âges ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Nos bandes ont été développées pour les adultes. Elles sont tout de même utilisables par les adolescents. Si vous souhaitez les utiliser pour une personne ayant des besoins spécifiques, nous vous conseillons de consulter un professionnel de santé pour vous assurer qu’elles conviennent parfaitement.</p></div>\n        </div>\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab5\" class=\"tab-toggle\">\n            <label for=\"tab5\" class=\"rb-faq-question\">Quels sont les délais de livraison ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Nous savons à quel point il est important de recevoir votre commande rapidement et en parfait état. Votre commande est préparée et expédiée dans un délai de&nbsp;<strong>1 à 2 jours ouvrés</strong>&nbsp;après sa validation.</p><p>Ensuite, le temps de livraison standard est généralement de&nbsp;<strong>6 à 8 jours ouvrables</strong>.</p><p>Une fois votre colis expédié, nous vous transmettrons un&nbsp;<strong>numéro de suivi</strong>&nbsp;qui vous permettra de suivre votre livraison en temps réel.</p><p>Si vous avez des doutes ou souhaitez obtenir des précisions sur votre envoi, notre service client est à votre disposition.</p></div>\n        </div>\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab6\" class=\"tab-toggle\">\n            <label for=\"tab6\" class=\"rb-faq-question\">Quelle est notre politique de retour ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Votre satisfaction est notre priorité. Si votre achat ne répond pas à vos attentes, nous avons mis en place une politique de retour simple et sans frais.</p><p>🔄 Vous avez&nbsp;<strong>30 jours</strong>&nbsp;après la réception de votre colis pour demander un retour.<br><br>Les frais de retour sont entièrement&nbsp;<strong>pris en charge</strong>&nbsp;pour vous garantir une expérience d'achat sans tracas. Il vous suffit de contacter notre notre service client.</p></div>\n        </div>\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab7\" class=\"tab-toggle\">\n            <label for=\"tab7\" class=\"rb-faq-question\">Le paiement sur votre site est-il sécurisé ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Absolument. Nous accordons une attention particulière à la protection de vos informations lors de vos achats.</p><p>🔐 Nos systèmes de paiement sont équipés des dernières technologies de sécurité afin de garantir la confidentialité de vos données.</p><p>Vous pouvez donc faire vos achats en toute sérénité, avec l'assurance que vos informations personnelles et bancaires sont protégées.</p></div>\n        </div>\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab8\" class=\"tab-toggle\">\n            <label for=\"tab8\" class=\"rb-faq-question\">Comment contacter notre service client ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Nous sommes toujours disponibles pour vous accompagner et répondre à vos questions.</p><p>Pour toute demande, vous pouvez nous écrire à l'adresse suivante :&nbsp;<a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nos conseillers sont à votre écoute du lundi au vendredi, de 8h à 18h. Que ce soit pour une question sur nos produits, une commande en cours ou toute autre information, nous serons ravis de vous aider.</p></div>\n        </div>\n        \n        <div class=\"rb-faq-container-item\" bis_skin_checked=\"1\">\n            <input style=\"display:none!important;\" type=\"checkbox\" id=\"tab9\" class=\"tab-toggle\">\n            <label for=\"tab9\" class=\"rb-faq-question\">Puis-je modifier ou annuler ma commande après l'avoir passée ?</label>\n            <div class=\"rb-faq-answer\" bis_skin_checked=\"1\"><p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous&nbsp;<strong>le plus rapidement possible</strong>&nbsp;par e-mail à&nbsp;<a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p></div>\n        </div>\n        \n    </div>\n  </div>\n  \n\n  <style data-shopify=\"\">\n\n    .rb-faq-answer a {\n      color: inherit;\n      text-decoration: inherit;\n    }\n\n    .rb-faq-shopify-section {\n      padding-right:30px;\n      padding-left:30px;\n      margin-bottom:50px\n    }\n\n    .rb-faq-container {\n        margin:auto;\n        max-width:1000px;\n        margin-top:20px;\n    }\n\n    .rb-faq-container-item {\n          border-radius: 8px;\n          margin-bottom:10px;\n          overflow: hidden;\n    }\n\n    .rb-faq-question::after{\n          color: #32a1d5;\n          content: '\\276F';\n          transition: all 0.2s ease;\n      }\n\n    .rb-faq-question {\n        border-radius: 8px;\n        display:flex !important;\n        justify-content: space-between;\n        background-color:#f3f3f3;\n        padding:15px 20px;\n        font-weight: bold;\n        color: #000000;\n        font-size: 1.5rem;\n    }\n\n    .rb-faq-question:hover {\n          color: #32a1d5;\n      }\n    .rb-faq-answer {\n          padding: 0px 20px;\n          position: relative;\n          width: 100%;\n          height: 0;\n          opacity: 0;\n          overflow: hidden;\n          visibility: hidden;\n          will-change: height;\n          transform: translateY(25px);\n          transition: all .2s ease;\n          -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n    }\n    .tab-toggle:checked ~ .rb-faq-answer {\n      transform: translateY(0);\n      padding: 15px 20px;\n      height:auto;\n      opacity: 1;\n      overflow: unset;\n      visibility: visible;\n      transition: all .3s ease,opacity 1s ease,height .3s ease;\n      color: #000000;\n      background-color: #ffffff;\n    }\n    .tab-toggle:checked ~ .rb-faq-question::after {\n          transform: rotate(90deg);\n    }\n    .tab-toggle{\n          display:none;\n    }\n  </style></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
+        "heading": "FAQ de Respire Zen",
+        "icon_color": "#31a1d5",
+        "hover_color": "#31a1d5",
+        "question_color": "#000000",
+        "background_color": "#f3f3f3",
+        "answer_color": "#000",
+        "answer_bg_color": "#fff",
+        "questions-font-size": 1
       }
     }
   },
@@ -441,7 +417,6 @@
     "custom_liquid_JUyPdJ",
     "1746463239aa05b058",
     "media_with_text_zjjTRh",
-    "faq_3yFN4Y",
-    "custom_liquid_BJBY4R"
+    "ss_simple_faq_DAmQHD"
   ]
 }
