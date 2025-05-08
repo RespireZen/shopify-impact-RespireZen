@@ -64,6 +64,12 @@
           "settings": {
             "collapse_content": false
           }
+        },
+        "liquid_DJGzX6": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
         }
       },
       "block_order": [
@@ -74,7 +80,8 @@
         "buy_buttons",
         "text_6XJB9r",
         "essential_trust_badges_app_block_M4PjGH",
-        "description_EUn66Y"
+        "description_EUn66Y",
+        "liquid_DJGzX6"
       ],
       "settings": {
         "full_width": false,
