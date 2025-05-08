@@ -418,6 +418,30 @@
         "full_width": false,
         "spacing": "small"
       }
+    },
+    "video_Vrbetp": {
+      "type": "video",
+      "blocks": {
+        "play_DUrx7p": {
+          "type": "play",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "play_DUrx7p"
+      ],
+      "name": "Video",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/comment_choisir_la_bonne_taille_de_sa_bande_nasale_1743112837.webm",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -431,6 +455,7 @@
     "custom_liquid_JUyPdJ",
     "1746463239aa05b058",
     "media_with_text_NUHdAU",
-    "media_with_text_UKya8G"
+    "media_with_text_UKya8G",
+    "video_Vrbetp"
   ]
 }
