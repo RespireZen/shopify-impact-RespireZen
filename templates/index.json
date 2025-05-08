@@ -631,29 +631,43 @@
         "text_XWR6wR": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Les bandes nasales sont-elles adaptées à tous les âges ?",
+            "answer": "<p>Nos bandes ont été développées pour les adultes. Elles sont tout de même utilisables par les adolescents. Si vous souhaitez les utiliser pour une personne ayant des besoins spécifiques, nous vous conseillons de consulter un professionnel de santé pour vous assurer qu’elles conviennent parfaitement.</p>"
           }
         },
         "text_cqTq4B": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Quels sont les délais de livraison ?",
+            "answer": "<p>Nous savons à quel point il est important de recevoir votre commande rapidement et en parfait état. Votre commande est préparée et expédiée dans un délai de <strong>1 à 2 jours ouvrés</strong> après sa validation.</p><p>Ensuite, le temps de livraison standard est généralement de <strong>6 à 8 jours ouvrables</strong>.</p><p>Une fois votre colis expédié, nous vous transmettrons un <strong>numéro de suivi</strong> qui vous permettra de suivre votre livraison en temps réel.</p><p>Si vous avez des doutes ou souhaitez obtenir des précisions sur votre envoi, notre service client est à votre disposition.</p>"
           }
         },
         "text_gwjRJi": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Quelle est notre politique de retour ?",
+            "answer": "<p>Votre satisfaction est notre priorité. Si votre achat ne répond pas à vos attentes, nous avons mis en place une politique de retour simple et sans frais.</p><p>🔄 Vous avez <strong>30 jours</strong> après la réception de votre colis pour demander un retour.<br/><br/>Les frais de retour sont entièrement <strong>pris en charge</strong> pour vous garantir une expérience d'achat sans tracas. Il vous suffit de contacter notre notre service client.</p>"
+          }
+        },
+        "text_LAAe9c": {
+          "type": "text",
+          "settings": {
+            "question": "Le paiement sur votre site est-il sécurisé ?",
+            "answer": "<p>Absolument. Nous accordons une attention particulière à la protection de vos informations lors de vos achats.</p><p>🔐 Nos systèmes de paiement sont équipés des dernières technologies de sécurité afin de garantir la confidentialité de vos données.</p><p>Vous pouvez donc faire vos achats en toute sérénité, avec l'assurance que vos informations personnelles et bancaires sont protégées.</p>"
           }
         },
         "text_qRLmfc": {
           "type": "text",
           "settings": {
-            "question": "How can I create headshots with AI?",
-            "answer": "<p>Need professional headshots quickly? <a href=\"https://headshots.so\">headshots.so</a>, <a href=\"https://headshots.dk\">headshots.dk</a>, <a href=\"https://headshots.se\">headshots.se</a>, and <a href=\"https://headshots.no\">headshots.no</a> make it easy to produce high-quality images in just a few minutes. Whether you’re updating your LinkedIn profile or website, these platforms help you get a polished look without any hassle.</p>"
+            "question": "Comment contacter notre service client ?",
+            "answer": "<p>Nous sommes toujours disponibles pour vous accompagner et répondre à vos questions.</p><p>Pour toute demande, vous pouvez nous écrire à l'adresse suivante : <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nos conseillers sont à votre écoute du lundi au vendredi, de 8h à 18h. Que ce soit pour une question sur nos produits, une commande en cours ou toute autre information, nous serons ravis de vous aider.</p>"
+          }
+        },
+        "text_y8eMxX": {
+          "type": "text",
+          "settings": {
+            "question": "Puis-je modifier ou annuler ma commande après l'avoir passée ?",
+            "answer": "<p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous <strong>le plus rapidement possible</strong> par e-mail à <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p>"
           }
         }
       },
@@ -664,7 +678,9 @@
         "text_XWR6wR",
         "text_cqTq4B",
         "text_gwjRJi",
-        "text_qRLmfc"
+        "text_LAAe9c",
+        "text_qRLmfc",
+        "text_y8eMxX"
       ],
       "name": "SS - FAQ #1",
       "settings": {
@@ -676,107 +692,6 @@
         "answer_color": "#000",
         "answer_bg_color": "#fff",
         "questions-font-size": 1
-      }
-    },
-    "faq_PGTFKG": {
-      "type": "faq",
-      "blocks": {
-        "item_K3PFyb": {
-          "type": "item",
-          "settings": {
-            "title": "Nos bandes nasales sont-elles réutilisables ?",
-            "content": "<p>Oui, nos bandes nasales magnétiques sont conçues pour être réutilisables. Elles sont fabriquées à partir de matériaux durables et faciles à nettoyer pour garantir une bonne hygiène après chaque utilisation.</p><p>Nous vous recommandons de les nettoyer délicatement avec de l’eau tiède et du savon doux, puis de les laisser sécher à l’air libre.</p>"
-          }
-        },
-        "item_6aFFU8": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je utiliser les bandes nasales pendant le sport ?",
-            "content": "<p>Bien sûr ! Nos bandes nasales sont aussi faites pour les activités sportives qui nécessitent une meilleure respiration. Elles permettent d’améliorer l’apport en oxygène, ce qui aide à améliorer vos performances et votre endurance.</p><p>De nombreux sportifs ont adoptés nos bandes nasales magnétiques pour améliorer leur respiration pendant des exercices d’intensité modérée à élevée.</p>"
-          }
-        },
-        "item_Wj4WW4": {
-          "type": "item",
-          "settings": {
-            "title": "Combien de temps durent vos bandes nasales magnétiques ?",
-            "content": "<p>Avec un entretien régulier, nos bandes ont été développées pour durer plusieurs années. Leur matériau robuste et leur technologie magnétique garantissent une efficacité durable.</p>"
-          }
-        },
-        "item_6q7fwC": {
-          "type": "item",
-          "settings": {
-            "title": "Les bandes nasales sont-elles adaptées à tous les âges ?",
-            "content": "<p>Nos bandes ont été développées pour les adultes. Elles sont tout de même utilisables par les adolescents. Si vous souhaitez les utiliser pour une personne ayant des besoins spécifiques, nous vous conseillons de consulter un professionnel de santé pour vous assurer qu’elles conviennent parfaitement.</p>"
-          }
-        },
-        "item_8UizR8": {
-          "type": "item",
-          "settings": {
-            "title": "Quels sont les délais de livraison ?",
-            "content": "<p>Nous savons à quel point il est important de recevoir votre commande rapidement et en parfait état. Votre commande est préparée et expédiée dans un délai de <strong>1 à 2 jours ouvrés</strong> après sa validation.</p><p>Ensuite, le temps de livraison standard est généralement de <strong>6 à 8 jours ouvrables</strong>.</p><p>Une fois votre colis expédié, nous vous transmettrons un <strong>numéro de suivi</strong> qui vous permettra de suivre votre livraison en temps réel.</p><p>Si vous avez des doutes ou souhaitez obtenir des précisions sur votre envoi, notre service client est à votre disposition.</p>"
-          }
-        },
-        "item_Bnfk87": {
-          "type": "item",
-          "settings": {
-            "title": "Quelle est notre politique de retour ?",
-            "content": "<p>Votre satisfaction est notre priorité. Si votre achat ne répond pas à vos attentes, nous avons mis en place une politique de retour simple et sans frais.</p><p>🔄 Vous avez <strong>30 jours</strong> après la réception de votre colis pour demander un retour.<br/><br/>Les frais de retour sont entièrement <strong>pris en charge</strong> pour vous garantir une expérience d'achat sans tracas. Il vous suffit de contacter notre notre service client.</p>"
-          }
-        },
-        "item_z8DkHz": {
-          "type": "item",
-          "settings": {
-            "title": "Le paiement sur votre site est-il sécurisé ?",
-            "content": "<p>Absolument. Nous accordons une attention particulière à la protection de vos informations lors de vos achats.</p><p>🔐 Nos systèmes de paiement sont équipés des dernières technologies de sécurité afin de garantir la confidentialité de vos données.</p><p>Vous pouvez donc faire vos achats en toute sérénité, avec l'assurance que vos informations personnelles et bancaires sont protégées.</p>"
-          }
-        },
-        "item_izbDPY": {
-          "type": "item",
-          "settings": {
-            "title": "Comment contacter notre service client ?",
-            "content": "<p>Nous sommes toujours disponibles pour vous accompagner et répondre à vos questions.</p><p>Pour toute demande, vous pouvez nous écrire à l'adresse suivante : <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nos conseillers sont à votre écoute du lundi au vendredi, de 8h à 18h. Que ce soit pour une question sur nos produits, une commande en cours ou toute autre information, nous serons ravis de vous aider.</p>"
-          }
-        },
-        "item_YmEyA8": {
-          "type": "item",
-          "settings": {
-            "title": "Puis-je modifier ou annuler ma commande après l'avoir passée ?",
-            "content": "<p>Nous comprenons que des changements de dernière minute peuvent parfois être nécessaires. Si vous souhaitez ajuster ou annuler votre commande, contactez-nous <strong>le plus rapidement possible</strong> par e-mail à <a href=\"mailto:contact@respire-zen.fr\" title=\"mailto:contact@respire-zen.fr\">contact@respire-zen.fr</a>.</p><p>Nous mettrons tout en œuvre pour répondre à votre demande. Toutefois, étant donné que nous traitons les commandes rapidement, certaines commandes ne peuvent pas être annulées.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_K3PFyb",
-        "item_6aFFU8",
-        "item_Wj4WW4",
-        "item_6q7fwC",
-        "item_8UizR8",
-        "item_Bnfk87",
-        "item_z8DkHz",
-        "item_izbDPY",
-        "item_YmEyA8"
-      ],
-      "name": "FAQ",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "FAQ de Respire Zen",
-        "content": "",
-        "team_avatar_width": 160,
-        "support_hours": "",
-        "answer_time": "",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
       }
     },
     "tableau_comparaison_FxwPwG": {
@@ -1153,7 +1068,6 @@
     "media_with_text_BQLMmY",
     "media_with_text_WURYRh",
     "ss_simple_faq_qfLUW7",
-    "faq_PGTFKG",
     "tableau_comparaison_FxwPwG",
     "media-grid"
   ]
