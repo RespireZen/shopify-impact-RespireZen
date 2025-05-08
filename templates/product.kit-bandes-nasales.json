@@ -563,7 +563,7 @@
         "text_jDPnR8": {
           "type": "text",
           "settings": {
-            "question": "Question text",
+            "question": "Combien de temps durent vos bandes nasales magnétiques ?",
             "answer": "<p>Answer richtext</p>"
           }
         },
