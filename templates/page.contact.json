@@ -21,8 +21,8 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "Vous avez une question ? Contactez-nous !",
-        "content": "",
+        "title": "Vous avez une question ?",
+        "content": "<h2>Contactez-nous !</h2>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
