@@ -507,15 +507,15 @@
         "text_QCTAiM": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Comment puis-je savoir si mes ronflements proviennent du nez ou de la bouche ?",
+            "answer": "<p>Si vous vous réveillez souvent avec la gorge sèche ou si vous respirez difficilement par le nez, il est probable que vos ronflements soient liés à une obstruction nasale. En revanche, les ronflements d’origine buccale sont souvent associés à des vibrations au niveau de la gorge.</p>"
           }
         },
         "text_9XPxq7": {
           "type": "text",
           "settings": {
-            "question": "Question text",
-            "answer": "<p>Answer richtext</p>"
+            "question": "Les bandes nasales magnétiques sont-elles utiles en cas d’allergies, de rhume ou de nez bouché ?",
+            "answer": "<p>Oui, elles peuvent améliorer votre respiration en cas de congestion modérée due aux allergies ou à un léger rhume. Toutefois, elles ne remplacent pas les traitements spécifiques et peuvent être utilisées en complément d’un spray nasal ou d’un antihistaminique.</p>"
           }
         },
         "text_JRk7jK": {
