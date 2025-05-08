@@ -556,7 +556,7 @@
             "title": "Économisez grâce à nos abonnements",
             "content": "<p>Ne vous souciez plus d'avoir à passer commande à chaque fois pour vos patchs ! Avec notre formule d’abonnement, recevez vos recharges de patchs pour bandes nasales directement chez vous tous les 2 ou 3 mois ! En souscrivant à un abonnement, vous économisez entre 20 et 30% en profitant de nos meilleures offres.</p>",
             "link_text": "Voir nos abonnements",
-            "link_url": "",
+            "link_url": "shopify://collections/abonnements-de-recharges-de-patchs",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
@@ -590,13 +590,13 @@
             "subheading": "",
             "title": "Continuez à bien respirer avec nos recharges de patchs",
             "content": "<p>Assurez-vous de ne jamais manquer de patchs pour bandes nasales magnétiques grâce à nos <strong>recharges de patchs</strong>.</p><p>Pas besoin de recommander un nouveau kit, vous avez juste à choisir la quantité de patchs désirée. Plus vous achetez, plus vous économisez !</p>",
-            "link_text": "",
-            "link_url": "",
+            "link_text": "Respirez sans interruption",
+            "link_url": "shopify://products/recharges-de-patchs-pour-bandes-nasales-magnetiques",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#32a1d5",
             "button_text_color": ""
           }
         }
@@ -608,116 +608,6 @@
       "settings": {
         "full_width": false,
         "spacing": "small"
-      }
-    },
-    "rich_text_gq88QT": {
-      "type": "rich-text",
-      "blocks": {
-        "image_JtQg4i": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Economie_avec_nos_abonnements.webp",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "heading_4E8FrL": {
-          "type": "heading",
-          "settings": {
-            "text": "Économisez grâce à nos abonnements",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_eYWmVC": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Ne vous souciez plus d'avoir à passer commande à chaque fois pour vos patchs ! Avec notre formule d’abonnement, recevez vos recharges de patchs pour bandes nasales directement chez vous tous les 2 ou 3 mois ! En souscrivant à un abonnement, vous économisez entre 20 et 30% en profitant de nos meilleures offres.</p>"
-          }
-        },
-        "button_a6DVp3": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Voir nos abonnements",
-            "url": "shopify://collections/abonnements-de-recharges-de-patchs",
-            "background": "#32a1d5",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_JtQg4i",
-        "heading_4E8FrL",
-        "richtext_eYWmVC",
-        "button_a6DVp3"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "rich_text_4zjxfD": {
-      "type": "rich-text",
-      "blocks": {
-        "image_XxLAMM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Rechargesdepatchspourbandesnasales.webp",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "heading_Ny9wFV": {
-          "type": "heading",
-          "settings": {
-            "text": "Continuez à bien respirer avec nos recharges de patchs",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_PcndVe": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Assurez-vous de ne jamais manquer de patchs pour bandes nasales magnétiques grâce à nos <strong>recharges de patchs</strong>.</p><p>Pas besoin de recommander un nouveau kit, vous avez juste à choisir la quantité de patchs désirée. Plus vous achetez, plus vous économisez !</p>"
-          }
-        },
-        "button_YgyE6J": {
-          "type": "button",
-          "settings": {
-            "style": "fill",
-            "size": "xl",
-            "text": "Respirez sans interruption",
-            "url": "shopify://products/recharges-de-patchs-pour-bandes-nasales-magnetiques",
-            "background": "#32a1d5",
-            "text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image_XxLAMM",
-        "heading_Ny9wFV",
-        "richtext_PcndVe",
-        "button_YgyE6J"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "faq_PGTFKG": {
@@ -1208,8 +1098,6 @@
     "174646077151f84787",
     "media_with_text_BQLMmY",
     "media_with_text_WURYRh",
-    "rich_text_gq88QT",
-    "rich_text_4zjxfD",
     "faq_PGTFKG",
     "scrolling-text",
     "tableau_comparaison_FxwPwG",
