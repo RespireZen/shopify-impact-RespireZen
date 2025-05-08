@@ -705,22 +705,6 @@
         "accordion_text_color": ""
       }
     },
-    "scrolling-text": {
-      "type": "scrolling-text",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "text": "Promotion text",
-        "text_size": "large",
-        "text_style": "fill",
-        "scrolling_mode": "auto",
-        "scrolling_speed": 5,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "text_gradient": ""
-      }
-    },
     "tableau_comparaison_FxwPwG": {
       "type": "tableau-comparaison",
       "blocks": {
@@ -1065,6 +1049,7 @@
         "item-3",
         "29246d34-c6e0-4373-84f6-b15e57736a00"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "reduce_width": false,
@@ -1094,7 +1079,6 @@
     "media_with_text_BQLMmY",
     "media_with_text_WURYRh",
     "faq_PGTFKG",
-    "scrolling-text",
     "tableau_comparaison_FxwPwG",
     "media-grid"
   ]
