@@ -68,7 +68,7 @@
         "liquid_hkafGE": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"impact-accordion\">\n  <details class=\"impact-accordion__item\">\n    <summary class=\"impact-accordion__summary\">\n      <div class=\"impact-accordion__summary-content\">\n        <span class=\"impact-accordion__icon\">\n          <!-- Icône optionnelle -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-box\" viewBox=\"0 0 20 20\" width=\"20\" height=\"20\">\n            <path fill-rule=\"evenodd\" d=\"M9.695.679a1 1 0 0 1 .674.003l7.846 2.859a1 1 0 0 1 .658.94v9.948a1 1 0 0 1-.553.894l-7.847 3.924a1 1 0 0 1-.882.006l-8.137-3.929a1 1 0 0 1-.565-.9v-9.94a1 1 0 0 1 .668-.943zM6.08 3.01 2.535 4.257l7.614 3.378 3.42-1.517zm.706-.248L14.2 5.838l3.337-1.48-7.51-2.736zM1.89 14.424v-9.36l7.76 3.444v9.662zm15.984.005-7.224 3.612V8.508l7.224-3.205z\"></path>\n          </svg>\n        </span>\n        <h2 class=\"impact-accordion__title\">\n          Livraison gratuite (6 à 8 jours)\n        </h2>\n      </div>\n      <svg class=\"impact-accordion__caret\" viewBox=\"0 0 10 6\" width=\"10\" height=\"6\">\n        <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708\" clip-rule=\"evenodd\"/>\n      </svg>\n    </summary>\n    <div class=\"impact-accordion__content rte\">\n      <p>Respire Zen propose une livraison de votre commande entièrement gratuite. Nous expédions votre commande dans un délai de <strong>1 à 2 jours</strong>.</p>\n      <p>La livraison prend généralement entre <strong>6 à 8 jours ouvrés</strong>. Pour vous permettre de suivre votre colis en temps réel, un <strong>numéro de suivi</strong> vous sera fourni.</p>\n    </div>\n  </details>\n</div>"
+            "liquid": "<div class=\"impact-accordion\">\n  <details class=\"impact-accordion__item\">\n    <summary class=\"impact-accordion__summary\">\n      <div class=\"impact-accordion__summary-content\">\n        <span class=\"impact-accordion__icon\">\n          <!-- Icône optionnelle -->\n          <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"icon icon-box\" viewBox=\"0 0 20 20\" width=\"20\" height=\"20\">\n            <path fill-rule=\"evenodd\" d=\"M9.695.679a1 1 0 0 1 .674.003l7.846 2.859a1 1 0 0 1 .658.94v9.948a1 1 0 0 1-.553.894l-7.847 3.924a1 1 0 0 1-.882.006l-8.137-3.929a1 1 0 0 1-.565-.9v-9.94a1 1 0 0 1 .668-.943zM6.08 3.01 2.535 4.257l7.614 3.378 3.42-1.517zm.706-.248L14.2 5.838l3.337-1.48-7.51-2.736zM1.89 14.424v-9.36l7.76 3.444v9.662zm15.984.005-7.224 3.612V8.508l7.224-3.205z\"></path>\n          </svg>\n        </span>\n        <h2 class=\"impact-accordion__title\">\n          Livraison express 1 à 2 jours (Chronopost)\n        </h2>\n      </div>\n      <svg class=\"impact-accordion__caret\" viewBox=\"0 0 10 6\" width=\"10\" height=\"6\">\n        <path fill=\"currentColor\" fill-rule=\"evenodd\" d=\"M9.354.646a.5.5 0 0 0-.708 0L5 4.293 1.354.646a.5.5 0 0 0-.708.708l4 4a.5.5 0 0 0 .708 0l4-4a.5.5 0 0 0 0-.708\" clip-rule=\"evenodd\"/>\n      </svg>\n    </summary>\n    <div class=\"impact-accordion__content rte\">\n      <p>Nous expédions votre commande sous <strong>24h</strong>, avec une livraison rapide en <strong>1 à 2 jours ouvrés</strong> via <strong>Chronopost</strong>.</p>\n      <p>Un <strong>numéro de suivi</strong> est fourni dès l’expédition pour suivre votre colis en temps réel 📦📍.</p>\n    </div>\n  </details>\n</div>"
           }
         },
         "liquid_wjftej": {
@@ -637,8 +637,8 @@
         "hover_color": "#31a1d5",
         "question_color": "#000000",
         "background_color": "#f3f3f3",
-        "answer_color": "#000",
-        "answer_bg_color": "#fff",
+        "answer_color": "#000000",
+        "answer_bg_color": "#ffffff",
         "questions-font-size": 1
       }
     }
